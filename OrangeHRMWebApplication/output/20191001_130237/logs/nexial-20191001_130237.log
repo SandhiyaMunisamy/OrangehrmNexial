@@ -1,0 +1,153 @@
+2019-10-01 13:02:37,603|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-01 13:02:37,609|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\bATIJ\OHRM_02_features.data.xlsx
+2019-10-01 13:02:37,611|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 13:02:37,611|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 13:02:37,611|I|Thread-1|(DELAYED) [20191001_130237] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191001_130237
+2019-10-01 13:02:37,611|I|Thread-1|(DELAYED) [20191001_130237] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-01 13:02:37,612|I|Thread-1|No predefined nexial-setup found
+2019-10-01 13:02:37,738|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 13:02:37,739|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 13:02:37,739|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 13:02:37,771|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 13:02:38,720|I|Thread-1|[20191001_130237] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx with 1 iteration(s)
+2019-10-01 13:02:38,726|I|Thread-1|[20191001_130237] create directory C:\projects\OrangeHRMWebApplication\output\20191001_130237\captures
+2019-10-01 13:02:38,729|I|Thread-1|[20191001_130237] create directory C:\projects\OrangeHRMWebApplication\output\20191001_130237\logs
+2019-10-01 13:02:39,563|I|Thread-1|[20191001_130237] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191001_130237\OHRM_02_features.20191001_130238.001.xlsx
+2019-10-01 13:02:39,567|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-01 13:02:39,961|I|Thread-1|[20191001_130237] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191001_130237\OHRM_02_features.20191001_130238.001.xlsx
+2019-10-01 13:02:40,941|I|Thread-1|STARTS
+2019-10-01 13:02:40,969|I|Thread-1|OHRM_02_features.20191001_130238.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 13:02:40,979|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm - executing test scenario
+2019-10-01 13:02:40,981|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features - executing activity
+2019-10-01 13:02:41,585|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  5|web.open(url) - executing open(url)(${url})
+2019-10-01 13:02:41,590|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 13:02:41,593|I|Thread-1|init chrome
+2019-10-01 13:02:44,966|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 13:02:44,995|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 13:02:45,016|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 13:02:45,095|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-01 13:02:52,891|I|Thread-1|current browser window handle:CDwindow-771BFB0F6B91A3DEA1DB29F6EC0E3509
+2019-10-01 13:02:53,389|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  5|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-01 13:02:54,011|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 13:02:55,234|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 13:02:55,843|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  7|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-01 13:02:55,909|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-01 13:02:55,958|I|Thread-1|click target via JS, @id=
+2019-10-01 13:02:57,036|I|Thread-1|clicked -> true
+2019-10-01 13:02:57,039|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  7|web.click(locator) - PASS click via JS event
+2019-10-01 13:02:57,659|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  8|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-01 13:02:57,772|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  8|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-01 13:02:58,381|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  9|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.pim.loc}, Personnel Information Management (PIM))
+2019-10-01 13:02:58,634|I|Thread-1|clicking '//h4[text()='Personnel Information Management (PIM)' and text() = 'Personnel Information Management (PIM)']'...
+2019-10-01 13:02:58,681|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:01,841|I|Thread-1|clicked -> true
+2019-10-01 13:03:01,844|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|#  9|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 13:03:02,446|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 10|web.scrollTo(locator) - executing scrollTo(locator)(${btn.customfields.loc})
+2019-10-01 13:03:02,579|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 10|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Custom Fields']/following-sibling::a'
+2019-10-01 13:03:03,182|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 11|web.assertTextPresent(tex - executing assertTextPresent(text)(Custom Fields)
+2019-10-01 13:03:03,243|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 11|web.assertTextPresent(tex - PASS EXPECTED text 'Custom Fields' found
+2019-10-01 13:03:03,848|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 12|web.click(locator) - executing click(locator)(${btn.customfields.loc})
+2019-10-01 13:03:03,915|I|Thread-1|clicking '//h4[text()='Custom Fields']/following-sibling::a'...
+2019-10-01 13:03:03,959|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:04,045|I|Thread-1|clicked -> true
+2019-10-01 13:03:04,047|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 12|web.click(locator) - PASS click via JS event
+2019-10-01 13:03:04,649|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 13|web.scrollTo(locator) - executing scrollTo(locator)(${btn.addemployee.loc})
+2019-10-01 13:03:04,801|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 13|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Add employee']/following-sibling::a'
+2019-10-01 13:03:05,416|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 14|web.assertTextPresent(tex - executing assertTextPresent(text)(Add employee)
+2019-10-01 13:03:05,473|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 14|web.assertTextPresent(tex - PASS EXPECTED text 'Add employee' found
+2019-10-01 13:03:06,077|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 15|web.click(locator) - executing click(locator)(${btn.addemployee.loc})
+2019-10-01 13:03:06,126|I|Thread-1|clicking '//h4[text()='Add employee']/following-sibling::a'...
+2019-10-01 13:03:06,161|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:06,226|I|Thread-1|clicked -> true
+2019-10-01 13:03:06,228|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 15|web.click(locator) - PASS click via JS event
+2019-10-01 13:03:06,831|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 16|web.scrollTo(locator) - executing scrollTo(locator)(${btn.bulkupdate.loc})
+2019-10-01 13:03:06,980|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 16|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Bulk Update']/following-sibling::a'
+2019-10-01 13:03:07,584|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 17|web.assertTextPresent(tex - executing assertTextPresent(text)(Bulk Update)
+2019-10-01 13:03:07,684|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 17|web.assertTextPresent(tex - PASS EXPECTED text 'Bulk Update' found
+2019-10-01 13:03:08,293|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 18|web.click(locator) - executing click(locator)(${btn.bulkupdate.loc})
+2019-10-01 13:03:08,351|I|Thread-1|clicking '//h4[text()='Bulk Update']/following-sibling::a'...
+2019-10-01 13:03:08,392|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:08,473|I|Thread-1|clicked -> true
+2019-10-01 13:03:08,475|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 18|web.click(locator) - PASS click via JS event
+2019-10-01 13:03:09,079|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 19|web.scrollTo(locator) - executing scrollTo(locator)(${btn.myshortcuts.loc})
+2019-10-01 13:03:09,263|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 19|web.scrollTo(locator) - PASS scrolled to '//h4[text()='My shortcuts']/following-sibling::a'
+2019-10-01 13:03:09,880|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 20|web.assertTextPresent(tex - executing assertTextPresent(text)(My shortcuts)
+2019-10-01 13:03:09,944|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 20|web.assertTextPresent(tex - PASS EXPECTED text 'My shortcuts' found
+2019-10-01 13:03:10,548|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 21|web.click(locator) - executing click(locator)(${btn.myshortcuts.loc})
+2019-10-01 13:03:10,611|I|Thread-1|clicking '//h4[text()='My shortcuts']/following-sibling::a'...
+2019-10-01 13:03:10,658|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:10,727|I|Thread-1|clicked -> true
+2019-10-01 13:03:10,730|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 21|web.click(locator) - PASS click via JS event
+2019-10-01 13:03:11,332|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 22|web.scrollTo(locator) - executing scrollTo(locator)(${btn.reportingtools.loc})
+2019-10-01 13:03:11,476|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 22|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Reporting tools']/following-sibling::a'
+2019-10-01 13:03:12,084|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 23|web.assertTextPresent(tex - executing assertTextPresent(text)(Reporting tools)
+2019-10-01 13:03:12,144|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 23|web.assertTextPresent(tex - PASS EXPECTED text 'Reporting tools' found
+2019-10-01 13:03:12,746|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 24|web.click(locator) - executing click(locator)(${btn.reportingtools.loc})
+2019-10-01 13:03:12,809|I|Thread-1|clicking '//h4[text()='Reporting tools']/following-sibling::a'...
+2019-10-01 13:03:12,849|I|Thread-1|click target via JS, @id=
+2019-10-01 13:03:12,910|I|Thread-1|clicked -> true
+2019-10-01 13:03:12,913|I|Thread-1|OHRM_02_features.20191001_130238.001|orangehrm|Features|# 24|web.click(locator) - PASS click via JS event
+2019-10-01 13:03:13,245|I|Thread-1|[OHRM_02_features.20191001_130238.001|orangehrm] saving test scenario
+2019-10-01 13:03:13,825|I|Thread-1|[20191001_130237] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191001_130237\OHRM_02_features.20191001_130238.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 32833 ms
+» Test Steps:     20
+» Error(s):       0
+
+
+
+2019-10-01 13:03:17,008|I|Thread-1|[20191001_130237] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 39687 ms
+» Iterations:     [1] total 1
+» Test Steps:     20
+» Passed:         20
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191001_130237\OHRM_02_features.20191001_130238.001.xlsx
+
+
+
+2019-10-01 13:03:17,417|I|main|[20191001_130237] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] now completed
+2019-10-01 13:03:17,418|I|main|[20191001_130237] all execution thread(s) have terminated
+2019-10-01 13:03:17,419|I|main|[20191001_130237] test run completed in about 40 seconds
+2019-10-01 13:03:17,570|I|main|No predefined nexial-setup found
+2019-10-01 13:03:17,634|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 13:03:17,634|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 13:03:17,635|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 13:03:17,637|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191001_130237\execution-output.html
+2019-10-01 13:03:18,515|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191001_130237\junit.xml
+2019-10-01 13:03:18,584|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191001_130237\junit.xml
+2019-10-01 13:03:18,604|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-01 13:03:18,604|I|main|skipped email notification as configured
+2019-10-01 13:03:18,608|I|main|Exiting Nexial...
+2019-10-01 13:03:18,608|I|main|shutdown starts...
+2019-10-01 13:03:18,611|I|main|Shutting down 'chrome' webdriver...
+2019-10-01 13:03:27,405|I|main|shutdown ends...
+2019-10-01 13:03:27,412|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 40 sec.
+| » Test Steps:     20
+| » Passed:         20
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-01 13:03:27,421|I|main|ALL PASSED!
+2019-10-01 13:03:27,425|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191001_130237
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191001_130237\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191001_130237\junit.xml
+SUCCESS RATE: 100.00%
+EXIT STATUS:  0
+2019-10-01 13:03:27,431|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191001_130237
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191001_130237\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191001_130237\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

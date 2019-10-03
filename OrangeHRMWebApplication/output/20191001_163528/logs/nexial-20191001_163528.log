@@ -1,0 +1,137 @@
+2019-10-01 16:35:28,707|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-01 16:35:28,711|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\QoVhD\OHRM_02_features.data.xlsx
+2019-10-01 16:35:28,711|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 16:35:28,711|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 16:35:28,711|I|Thread-1|(DELAYED) [20191001_163528] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191001_163528
+2019-10-01 16:35:28,711|I|Thread-1|(DELAYED) [20191001_163528] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-01 16:35:28,712|I|Thread-1|No predefined nexial-setup found
+2019-10-01 16:35:28,799|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 16:35:28,800|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 16:35:28,801|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 16:35:28,834|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 16:35:29,970|I|Thread-1|[20191001_163528] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx with 1 iteration(s)
+2019-10-01 16:35:29,976|I|Thread-1|[20191001_163528] create directory C:\projects\OrangeHRMWebApplication\output\20191001_163528\captures
+2019-10-01 16:35:29,980|I|Thread-1|[20191001_163528] create directory C:\projects\OrangeHRMWebApplication\output\20191001_163528\logs
+2019-10-01 16:35:31,995|I|Thread-1|macro(s) found and merged; C:\projects\OrangeHRMWebApplication\output\20191001_163528\OHRM_02_features.20191001_163529.001.xlsx will need to be saved
+2019-10-01 16:35:31,996|I|Thread-1|[20191001_163528] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191001_163528\OHRM_02_features.20191001_163529.001.xlsx
+2019-10-01 16:35:31,998|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-01 16:35:32,469|I|Thread-1|[20191001_163528] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191001_163528\OHRM_02_features.20191001_163529.001.xlsx
+2019-10-01 16:35:33,820|I|Thread-1|STARTS
+2019-10-01 16:35:33,853|I|Thread-1|OHRM_02_features.20191001_163529.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 16:35:33,862|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen - executing test scenario
+2019-10-01 16:35:33,865|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM) - executing activity
+2019-10-01 16:35:34,469|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-01 16:35:34,503|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - PASS 
+2019-10-01 16:35:35,109|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - executing open(url)(${url})
+2019-10-01 16:35:35,121|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 16:35:35,134|I|Thread-1|init chrome
+2019-10-01 16:35:38,536|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 16:35:38,567|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 16:35:38,591|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 16:35:38,658|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-01 16:35:45,095|I|Thread-1|current browser window handle:CDwindow-E566F877E8095F923EFB87784CD2ADF6
+2019-10-01 16:35:45,608|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-01 16:35:46,213|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 16:35:47,523|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 16:35:48,128|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-01 16:35:48,224|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-01 16:35:48,294|I|Thread-1|click target via JS, @id=
+2019-10-01 16:35:49,382|I|Thread-1|clicked -> true
+2019-10-01 16:35:49,387|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - PASS click via JS event
+2019-10-01 16:35:50,003|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-01 16:35:50,131|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-01 16:35:50,743|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.pim.loc}, ${PIMlabel})
+2019-10-01 16:35:50,996|I|Thread-1|clicking '//h4[text()='Personnel Information Management (PIM)' and text() = 'Personnel Information Management (PIM)']'...
+2019-10-01 16:35:51,046|I|Thread-1|click target via JS, @id=
+2019-10-01 16:35:53,920|I|Thread-1|clicked -> true
+2019-10-01 16:35:53,925|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:35:54,537|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|web.scrollTo(locator) - executing scrollTo(locator)(${btn.customfields.loc})
+2019-10-01 16:35:54,670|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Custom Fields']/following-sibling::a'
+2019-10-01 16:35:55,275|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertTextPresent(tex - executing assertTextPresent(text)(${CustomFields})
+2019-10-01 16:35:55,343|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertTextPresent(tex - PASS EXPECTED text 'Custom Fields' found
+2019-10-01 16:35:55,946|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.click(locator) - executing click(locator)(${btn.customfields.loc})
+2019-10-01 16:35:56,004|I|Thread-1|clicking '//h4[text()='Custom Fields']/following-sibling::a'...
+2019-10-01 16:35:56,041|I|Thread-1|click target via JS, @id=
+2019-10-01 16:35:56,112|I|Thread-1|clicked -> true
+2019-10-01 16:35:56,114|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.click(locator) - PASS click via JS event
+2019-10-01 16:35:56,717|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.scrollTo(locator) - executing scrollTo(locator)(${btn.addemployee.loc})
+2019-10-01 16:35:56,868|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Add employee']/following-sibling::a'
+2019-10-01 16:35:57,476|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.assertTextPresent(tex - executing assertTextPresent(text)(${AddEmployee})
+2019-10-01 16:35:57,554|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.assertTextPresent(tex - PASS EXPECTED text 'Add employee' found
+2019-10-01 16:35:58,158|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.click(locator) - executing click(locator)(${btn.addemployee.loc})
+2019-10-01 16:35:58,231|I|Thread-1|clicking '//h4[text()='Add employee']/following-sibling::a'...
+2019-10-01 16:35:58,281|I|Thread-1|click target via JS, @id=
+2019-10-01 16:35:58,374|I|Thread-1|clicked -> true
+2019-10-01 16:35:58,377|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.click(locator) - PASS click via JS event
+2019-10-01 16:35:58,982|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.scrollTo(locator) - executing scrollTo(locator)(${btn.bulkupdate.loc})
+2019-10-01 16:35:59,143|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Bulk Update']/following-sibling::a'
+2019-10-01 16:35:59,746|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.assertTextPresent(tex - executing assertTextPresent(text)(${BulkUpdate})
+2019-10-01 16:35:59,823|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.assertTextPresent(tex - PASS EXPECTED text 'Bulk Update' found
+2019-10-01 16:36:00,440|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.click(locator) - executing click(locator)(${btn.bulkupdate.loc})
+2019-10-01 16:36:00,516|I|Thread-1|clicking '//h4[text()='Bulk Update']/following-sibling::a'...
+2019-10-01 16:36:00,564|I|Thread-1|click target via JS, @id=
+2019-10-01 16:36:00,644|I|Thread-1|clicked -> true
+2019-10-01 16:36:00,647|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.click(locator) - PASS click via JS event
+2019-10-01 16:36:01,250|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.scrollTo(locator) - executing scrollTo(locator)(${btn.myshortcuts.loc})
+2019-10-01 16:36:01,414|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.scrollTo(locator) - PASS scrolled to '//h4[text()='My shortcuts']/following-sibling::a'
+2019-10-01 16:36:02,035|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 21|web.assertTextPresent(tex - executing assertTextPresent(text)(${MyShortcuts})
+2019-10-01 16:36:02,126|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 21|web.assertTextPresent(tex - PASS EXPECTED text 'My shortcuts' found
+2019-10-01 16:36:02,731|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 22|web.click(locator) - executing click(locator)(${btn.myshortcuts.loc})
+2019-10-01 16:36:02,793|I|Thread-1|clicking '//h4[text()='My shortcuts']/following-sibling::a'...
+2019-10-01 16:36:02,844|I|Thread-1|click target via JS, @id=
+2019-10-01 16:36:02,976|I|Thread-1|clicked -> true
+2019-10-01 16:36:02,978|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 22|web.click(locator) - PASS click via JS event
+2019-10-01 16:36:03,582|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 23|web.scrollTo(locator) - executing scrollTo(locator)(${btn.reportingtools.loc})
+2019-10-01 16:36:03,716|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 23|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Reporting tools']/following-sibling::a'
+2019-10-01 16:36:04,321|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 24|web.assertTextPresent(tex - executing assertTextPresent(text)(${ReportingTools})
+2019-10-01 16:36:04,401|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 24|web.assertTextPresent(tex - PASS EXPECTED text 'Reporting tools' found
+2019-10-01 16:36:05,005|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 25|web.click(locator) - executing click(locator)(${btn.reportingtools.loc})
+2019-10-01 16:36:05,075|I|Thread-1|clicking '//h4[text()='Reporting tools']/following-sibling::a'...
+2019-10-01 16:36:05,126|I|Thread-1|click target via JS, @id=
+2019-10-01 16:36:05,194|I|Thread-1|clicked -> true
+2019-10-01 16:36:05,196|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 25|web.click(locator) - PASS click via JS event
+2019-10-01 16:36:05,799|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 26|base.section(steps) - executing section(steps)(1)
+2019-10-01 16:36:05,802|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 26|base.section(steps) - PASS 
+2019-10-01 16:36:06,423|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 27|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.tryitnow.loc}, ${TryItNow})
+2019-10-01 16:36:06,515|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 27|web.assertAndClick(locato - text/label for 'Try It Now' not found at //div[@class='feature-module-page']/div/div/div/h3/following-sibling::a
+2019-10-01 16:36:06,527|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 27|web.assertAndClick(locato - FAIL No element with text 'Try It Now' can be found.
+2019-10-01 16:36:07,132|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 28|base.macro(file,sheet,nam - executing macro(file,sheet,name)(nexial-macro.xlsx, Macros, Display_Message)
+2019-10-01 16:36:07,140|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 28|base.macro(file,sheet,nam - FAIL Runtime error: Macro reference (nexial-macro.xlsx,Macros,Display_Message) not expanded
+2019-10-01 16:36:07,145|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 28|base.macro(file,sheet,nam - test stopping due fail-immediate in effect
+2019-10-01 16:36:07,147|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen - test activity execution failed. Because of this, all subsequent test case will be skipped
+2019-10-01 16:36:07,149|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen - test activity execution ending due to EndLoopIf() flow control activated or unrecoverable execution failure.
+2019-10-01 16:36:07,606|I|Thread-1|[OHRM_02_features.20191001_163529.001|Personnel Information Managemen] saving test scenario
+2019-10-01 16:36:08,563|I|Thread-1|OHRM_02_features.20191001_163529.001|Personnel Information Managemen - test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-10-01 16:36:08,579|I|Thread-1|[20191001_163528] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191001_163528\OHRM_02_features.20191001_163529.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 34721 ms
+» Test Steps:     24
+» Error(s):       2
+
+
+
+2019-10-01 16:36:08,580|I|Thread-1|OHRM_02_features.20191001_163529.001 - fail-immediate in effect - test execution will stop now.
+2019-10-01 16:36:10,667|I|Thread-1|[20191001_163528] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 42224 ms
+» Iterations:     [1] total 1
+» Test Steps:     24
+» Passed:         22
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191001_163528\OHRM_02_features.20191001_163529.001.xlsx
+
+
+
+2019-10-01 16:36:11,454|I|main|[20191001_163528] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] now completed
+2019-10-01 16:36:11,455|I|main|[20191001_163528] all execution thread(s) have terminated
+2019-10-01 16:36:11,458|I|main|[20191001_163528] test run completed in about 43 seconds
+2019-10-01 16:36:11,645|I|main|No predefined nexial-setup found
+2019-10-01 16:36:11,688|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 16:36:11,697|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 16:36:11,699|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 16:36:11,703|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191001_163528\execution-output.html

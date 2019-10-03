@@ -1,0 +1,163 @@
+2019-09-30 18:14:58,013|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-09-30 18:14:58,021|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\EmRIC\OrangeHRMWebApplication.data.xlsx
+2019-09-30 18:14:58,022|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-30 18:14:58,022|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-30 18:14:58,022|I|Thread-1|(DELAYED) [20190930_181457] [C:\projects\OrangeHRMWebApplication\artifact\script\OrangeHRMWebApplication.xlsx] resolve RUN ID as 20190930_181457
+2019-09-30 18:14:58,023|I|Thread-1|(DELAYED) [20190930_181457] [C:\projects\OrangeHRMWebApplication\artifact\script\OrangeHRMWebApplication.xlsx] new thread started
+2019-09-30 18:14:58,023|I|Thread-1|No predefined nexial-setup found
+2019-09-30 18:14:58,146|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-30 18:14:58,147|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-30 18:14:58,148|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-30 18:14:58,185|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-30 18:14:59,397|I|Thread-1|[20190930_181457] executing C:\projects\OrangeHRMWebApplication\artifact\script\OrangeHRMWebApplication.xlsx with 1 iteration(s)
+2019-09-30 18:14:59,407|I|Thread-1|[20190930_181457] create directory C:\projects\OrangeHRMWebApplication\output\20190930_181457\captures
+2019-09-30 18:14:59,409|I|Thread-1|[20190930_181457] create directory C:\projects\OrangeHRMWebApplication\output\20190930_181457\logs
+2019-09-30 18:15:00,443|I|Thread-1|[20190930_181457] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20190930_181457\OrangeHRMWebApplication.20190930_181459.001.xlsx
+2019-09-30 18:15:00,448|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OrangeHRMWebApplication.data.xlsx
+2019-09-30 18:15:00,970|I|Thread-1|[20190930_181457] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20190930_181457\OrangeHRMWebApplication.20190930_181459.001.xlsx
+2019-09-30 18:15:01,946|I|Thread-1|STARTS
+2019-09-30 18:15:01,989|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-30 18:15:02,000|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm - executing test scenario
+2019-09-30 18:15:02,002|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Openurl - executing activity
+2019-09-30 18:15:02,624|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-09-30 18:15:02,636|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-30 18:15:02,650|I|Thread-1|init chrome
+2019-09-30 18:15:06,130|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-30 18:15:06,167|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-30 18:15:06,192|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-30 18:15:06,265|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Openurl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-09-30 18:15:13,894|I|Thread-1|current browser window handle:CDwindow-65DC545B6491389F2B01E46014635EBE
+2019-09-30 18:15:14,355|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Openurl|#  5|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-09-30 18:15:14,367|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|MaximizeWindow - executing activity
+2019-09-30 18:15:14,970|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|MaximizeWindow|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-30 18:15:16,179|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|MaximizeWindow|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-30 18:15:16,187|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickUsername - executing activity
+2019-09-30 18:15:16,789|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickUsername|#  7|web.click(locator) - executing click(locator)(${btn.freetrial.loc})
+2019-09-30 18:15:16,886|I|Thread-1|clicking '//nav[@class='navbar navbar-default header-nav']/div/div[2]/ul[2]/li[2]/a'...
+2019-09-30 18:15:16,955|I|Thread-1|click target via JS, @id=
+2019-09-30 18:15:19,506|I|Thread-1|clicked -> true
+2019-09-30 18:15:19,508|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickUsername|#  7|web.click(locator) - PASS click via JS event
+2019-09-30 18:15:19,521|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFavoredUrl - executing activity
+2019-09-30 18:15:20,126|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFavoredUrl|#  8|web.type(locator,value) - executing type(locator,value)(${txt.favoredurl.loc}, ${FavoredUrl})
+2019-09-30 18:15:20,693|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFavoredUrl|#  8|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_subdomain_Holder']/input'
+2019-09-30 18:15:20,705|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFirstName - executing activity
+2019-09-30 18:15:21,307|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFirstName|#  9|web.type(locator,value) - executing type(locator,value)(${txt.firstname.loc}, ${FirstName})
+2019-09-30 18:15:21,957|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterFirstName|#  9|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_FirstName_Holder']/div/input'
+2019-09-30 18:15:21,961|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterLastName - executing activity
+2019-09-30 18:15:22,563|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterLastName|# 10|web.type(locator,value) - executing type(locator,value)(${txt.lastname.loc}, ${LastName})
+2019-09-30 18:15:23,022|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterLastName|# 10|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_LastName_Holder']/div/input'
+2019-09-30 18:15:23,026|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterEmail - executing activity
+2019-09-30 18:15:23,628|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterEmail|# 11|web.type(locator,value) - executing type(locator,value)(${txt.email.loc}, ${Email})
+2019-09-30 18:15:24,387|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterEmail|# 11|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_Email_Holder']/div/input'
+2019-09-30 18:15:24,392|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterJobTitle - executing activity
+2019-09-30 18:15:24,994|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterJobTitle|# 12|web.type(locator,value) - executing type(locator,value)(${txt.jobtitle.loc}, ${JobTitle})
+2019-09-30 18:15:25,485|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterJobTitle|# 12|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_JobTitle_Holder']/div/input'
+2019-09-30 18:15:25,490|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectNoOfEmployees - executing activity
+2019-09-30 18:15:26,092|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectNoOfEmployees|# 13|web.select(locator,text) - executing select(locator,text)(${btn.noofemployees.loc}, ${txt.dropdown.noofemployees.loc})
+2019-09-30 18:15:26,322|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectNoOfEmployees|# 13|web.select(locator,text) - PASS selected '201 - 250' from '//select[@id='Form_submitForm_NoOfEmployees']'
+2019-09-30 18:15:26,325|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertNoOfEmployee - executing activity
+2019-09-30 18:15:26,927|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertNoOfEmployee|# 14|web.assertVisible(locator - executing assertVisible(locator)(${btn.noofemployees.loc})
+2019-09-30 18:15:27,035|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertNoOfEmployee|# 14|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_NoOfEmployees']' found
+2019-09-30 18:15:27,039|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Entercompany - executing activity
+2019-09-30 18:15:27,641|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Entercompany|# 15|web.type(locator,value) - executing type(locator,value)(${txt.company.loc}, ${company})
+2019-09-30 18:15:28,008|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|Entercompany|# 15|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_CompanyName_Holder']/div/input'
+2019-09-30 18:15:28,011|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectIndustry - executing activity
+2019-09-30 18:15:28,613|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectIndustry|# 16|web.select(locator,text) - executing select(locator,text)(${btn.industry.loc}, ${txt.dropdown.industry.loc})
+2019-09-30 18:15:28,895|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectIndustry|# 16|web.select(locator,text) - PASS selected 'Education' from '//select[@id='Form_submitForm_Industry']'
+2019-09-30 18:15:28,900|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertIndustry - executing activity
+2019-09-30 18:15:29,504|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertIndustry|# 17|web.assertVisible(locator - executing assertVisible(locator)(${btn.industry.loc})
+2019-09-30 18:15:29,612|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertIndustry|# 17|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_Industry']' found
+2019-09-30 18:15:29,617|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterPhoneNumber - executing activity
+2019-09-30 18:15:30,220|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterPhoneNumber|# 18|web.type(locator,value) - executing type(locator,value)(${txt.phonenumber.loc}, ${PhoneNumber})
+2019-09-30 18:15:30,663|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|EnterPhoneNumber|# 18|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_Contact_Holder']/div/input'
+2019-09-30 18:15:30,667|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectCountry - executing activity
+2019-09-30 18:15:31,268|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectCountry|# 19|web.select(locator,text) - executing select(locator,text)(${btn.country.loc}, ${txt.dropdown.country.loc})
+2019-09-30 18:15:31,520|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectCountry|# 19|web.select(locator,text) - PASS selected 'India' from '//select[@id='Form_submitForm_Country']'
+2019-09-30 18:15:31,527|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry - executing activity
+2019-09-30 18:15:32,129|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry|# 20|web.assertVisible(locator - executing assertVisible(locator)(${btn.country.loc})
+2019-09-30 18:15:32,269|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry|# 20|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_Country']' found
+2019-09-30 18:15:32,275|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectState - executing activity
+2019-09-30 18:15:32,876|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectState|# 21|web.select(locator,text) - executing select(locator,text)(${btn.state.loc}, ${txt.dropdown.state.loc})
+2019-09-30 18:15:33,090|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|SelectState|# 21|web.select(locator,text) - PASS selected 'Tamil Nadu' from '//select[@id='Form_submitForm_State']'
+2019-09-30 18:15:33,094|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry - executing activity
+2019-09-30 18:15:33,695|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry|# 22|web.assertVisible(locator - executing assertVisible(locator)(${btn.state.loc})
+2019-09-30 18:15:33,785|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|AssertCountry|# 22|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_State']' found
+2019-09-30 18:15:33,789|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickCheckbox - executing activity
+2019-09-30 18:15:34,391|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickCheckbox|# 23|web.click(locator) - executing click(locator)(${btn.checkbox.loc})
+2019-09-30 18:15:34,444|I|Thread-1|clicking '//input[@id='Form_submitForm_SetDummyData']'...
+2019-09-30 18:15:34,480|I|Thread-1|click target via JS, @id=Form_submitForm_SetDummyData
+2019-09-30 18:15:34,546|I|Thread-1|clicked -> true
+2019-09-30 18:15:34,549|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|ClickCheckbox|# 23|web.click(locator) - PASS click via JS event
+2019-09-30 18:15:34,552|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|NotARobot - executing activity
+2019-09-30 18:15:35,154|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|NotARobot|# 24|web.click(locator) - executing click(locator)(${btn.robot.checkbox.loc})
+2019-09-30 18:15:36,007|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|NotARobot|# 24|web.click(locator) - FAIL No element via locator '//span[@id='recaptcha-anchor']'
+2019-09-30 18:15:36,012|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|submit - executing activity
+2019-09-30 18:15:36,613|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|submit|# 25|web.click(locator) - executing click(locator)(${btn.submit.loc})
+2019-09-30 18:15:36,671|I|Thread-1|clicking '//input[@id='Form_submitForm_action_request']'...
+2019-09-30 18:15:36,707|I|Thread-1|click target via JS, @id=Form_submitForm_action_request
+2019-09-30 18:15:39,844|I|Thread-1|clicked -> true
+2019-09-30 18:15:39,846|I|Thread-1|OrangeHRMWebApplication.20190930_181459.001|orangehrm|submit|# 25|web.click(locator) - PASS click via JS event
+2019-09-30 18:15:40,211|I|Thread-1|[OrangeHRMWebApplication.20190930_181459.001|orangehrm] saving test scenario
+2019-09-30 18:15:40,631|I|Thread-1|[20190930_181457] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20190930_181457\OrangeHRMWebApplication.20190930_181459.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 38630 ms
+» Test Steps:     21
+» Error(s):       1
+
+
+
+2019-09-30 18:15:43,733|I|Thread-1|[20190930_181457] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OrangeHRMWebApplication.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 46025 ms
+» Iterations:     [1] total 1
+» Test Steps:     21
+» Passed:         20
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20190930_181457\OrangeHRMWebApplication.20190930_181459.001.xlsx
+
+
+
+2019-09-30 18:15:43,830|I|main|[20190930_181457] [C:\projects\OrangeHRMWebApplication\artifact\script\OrangeHRMWebApplication.xlsx] now completed
+2019-09-30 18:15:43,831|I|main|[20190930_181457] all execution thread(s) have terminated
+2019-09-30 18:15:43,832|I|main|[20190930_181457] test run completed in about 46 seconds
+2019-09-30 18:15:43,996|I|main|No predefined nexial-setup found
+2019-09-30 18:15:44,048|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-30 18:15:44,049|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-30 18:15:44,049|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-30 18:15:44,051|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20190930_181457\execution-output.html
+2019-09-30 18:15:44,818|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20190930_181457\junit.xml
+2019-09-30 18:15:44,896|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20190930_181457\junit.xml
+2019-09-30 18:15:44,915|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-30 18:15:44,916|I|main|skipped email notification as configured
+2019-09-30 18:15:44,917|I|main|Exiting Nexial...
+2019-09-30 18:15:44,919|I|main|shutdown starts...
+2019-09-30 18:15:44,922|I|main|Shutting down 'chrome' webdriver...
+2019-09-30 18:15:53,606|I|main|shutdown ends...
+2019-09-30 18:15:53,610|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 46 sec.
+| » Test Steps:     21
+| » Passed:         20
+| » Failed:         1
+| » Success Rate:   95.24%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-09-30 18:15:53,612|E|main|failure found; success rate is 95.24%
+2019-09-30 18:15:53,622|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20190930_181457
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20190930_181457\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20190930_181457\junit.xml
+SUCCESS RATE: 95.24%
+EXIT STATUS:  -13
+2019-09-30 18:15:53,625|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20190930_181457
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20190930_181457\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20190930_181457\junit.xml
+NEXIAL_SUCCESS_RATE:   95.24%
+NEXIAL_EXIT_STATUS:    -13

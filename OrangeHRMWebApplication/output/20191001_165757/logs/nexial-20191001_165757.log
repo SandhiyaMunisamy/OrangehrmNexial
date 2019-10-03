@@ -1,0 +1,84 @@
+2019-10-01 16:57:57,470|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-01 16:57:57,481|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\pMDGO\OHRM_02_features.data.xlsx
+2019-10-01 16:57:57,481|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 16:57:57,481|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 16:57:57,481|I|Thread-1|(DELAYED) [20191001_165757] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191001_165757
+2019-10-01 16:57:57,481|I|Thread-1|(DELAYED) [20191001_165757] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-01 16:57:57,489|I|Thread-1|No predefined nexial-setup found
+2019-10-01 16:57:57,661|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 16:57:57,662|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 16:57:57,664|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 16:57:57,723|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 16:57:59,275|I|Thread-1|[20191001_165757] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx with 1 iteration(s)
+2019-10-01 16:57:59,290|I|Thread-1|[20191001_165757] create directory C:\projects\OrangeHRMWebApplication\output\20191001_165757\captures
+2019-10-01 16:57:59,294|I|Thread-1|[20191001_165757] create directory C:\projects\OrangeHRMWebApplication\output\20191001_165757\logs
+2019-10-01 16:58:02,246|I|Thread-1|macro(s) found and merged; C:\projects\OrangeHRMWebApplication\output\20191001_165757\OHRM_02_features.20191001_165759.001.xlsx will need to be saved
+2019-10-01 16:58:02,249|I|Thread-1|[20191001_165757] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191001_165757\OHRM_02_features.20191001_165759.001.xlsx
+2019-10-01 16:58:02,259|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-01 16:58:02,935|I|Thread-1|[20191001_165757] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191001_165757\OHRM_02_features.20191001_165759.001.xlsx
+2019-10-01 16:58:04,647|I|Thread-1|STARTS
+2019-10-01 16:58:04,731|I|Thread-1|OHRM_02_features.20191001_165759.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 16:58:04,753|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen - executing test scenario
+2019-10-01 16:58:04,760|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM) - executing activity
+2019-10-01 16:58:05,373|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-01 16:58:05,381|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - PASS 
+2019-10-01 16:58:05,987|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - executing open(url)(${url})
+2019-10-01 16:58:05,991|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 16:58:05,993|I|Thread-1|init chrome
+2019-10-01 16:58:09,701|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 16:58:09,746|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 16:58:09,793|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 16:58:09,896|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-01 16:58:17,743|I|Thread-1|current browser window handle:CDwindow-90E2D16749201A7A1E0DE41565FEDA9D
+2019-10-01 16:58:18,331|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-01 16:58:18,975|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 16:58:20,346|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 16:58:20,954|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-01 16:58:21,054|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-01 16:58:21,133|I|Thread-1|click target via JS, @id=
+2019-10-01 16:58:22,131|I|Thread-1|clicked -> true
+2019-10-01 16:58:22,134|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - PASS click via JS event
+2019-10-01 16:58:22,754|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-01 16:58:22,978|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-01 16:58:23,622|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.pim.loc}, ${PIMlabel})
+2019-10-01 16:58:23,889|I|Thread-1|clicking '//h4[text()='Personnel Information Management (PIM)' and text() = 'Personnel Information Management (PIM)']'...
+2019-10-01 16:58:23,947|I|Thread-1|click target via JS, @id=
+2019-10-01 16:58:26,788|I|Thread-1|clicked -> true
+2019-10-01 16:58:26,795|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:58:27,418|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|base.section(steps) - executing section(steps)(1)
+2019-10-01 16:58:27,423|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|base.section(steps) - PASS 
+2019-10-01 16:58:28,038|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.tryitnow.loc}, ${TryItNow})
+2019-10-01 16:58:28,138|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertAndClick(locato - text/label for 'Try It Now' not found at //a[text()='Try It Now']
+2019-10-01 16:58:28,148|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertAndClick(locato - FAIL No element with text 'Try It Now' can be found.
+2019-10-01 16:58:28,752|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.goBack() - executing goBack()()
+2019-10-01 16:58:29,431|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.goBack() - PASS went back previous page
+2019-10-01 16:58:30,036|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.scrollTo(locator) - executing scrollTo(locator)(${btn.customfields.loc})
+2019-10-01 16:58:30,937|E|Thread-1|[20191001_165757] EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Custom Fields']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Custom Fields']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:30,939|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.scrollTo(locator) - FAIL EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Custom Fields']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Custom Fields']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:31,575|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.assertTextPresent(tex - executing assertTextPresent(text)(${CustomFields})
+2019-10-01 16:58:32,467|E|Thread-1|[20191001_165757] EXECUTING COMMAND: web.assertTextPresent(text)('Custom Fields')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(string(.)), normalize-space('Custom Fields'))]"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:32,471|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.assertTextPresent(tex - FAIL EXECUTING COMMAND: web.assertTextPresent(text)('Custom Fields')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(string(.)), normalize-space('Custom Fields'))]"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:33,076|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.click(locator) - executing click(locator)(${btn.customfields.loc})
+2019-10-01 16:58:33,937|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.click(locator) - FAIL No element via locator '//h4[text()='Custom Fields']/following-sibling::a'
+2019-10-01 16:58:34,542|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.scrollTo(locator) - executing scrollTo(locator)(${btn.addemployee.loc})
+2019-10-01 16:58:35,404|E|Thread-1|[20191001_165757] EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Add employee']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Add employee']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:35,409|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.scrollTo(locator) - FAIL EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Add employee']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Add employee']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:36,026|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.assertTextPresent(tex - executing assertTextPresent(text)(${AddEmployee})
+2019-10-01 16:58:36,933|E|Thread-1|[20191001_165757] EXECUTING COMMAND: web.assertTextPresent(text)('Add employee')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(string(.)), normalize-space('Add employee'))]"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:36,936|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.assertTextPresent(tex - FAIL EXECUTING COMMAND: web.assertTextPresent(text)('Add employee')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(normalize-space(string(.)), normalize-space('Add employee'))]"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:37,540|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.click(locator) - executing click(locator)(${btn.addemployee.loc})
+2019-10-01 16:58:38,410|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.click(locator) - FAIL No element via locator '//h4[text()='Add employee']/following-sibling::a'
+2019-10-01 16:58:39,015|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.scrollTo(locator) - executing scrollTo(locator)(${btn.bulkupdate.loc})
+2019-10-01 16:58:39,897|E|Thread-1|[20191001_165757] EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Bulk Update']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Bulk Update']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:39,899|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.scrollTo(locator) - FAIL EXECUTING COMMAND: web.scrollTo(locator)('//h4[text()='Bulk Update']/following-sibling::a')
+Specified element not found: no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Bulk Update']/following-sibling::a"}   (Session info: chrome=77.0.3865.90)...
+2019-10-01 16:58:40,505|I|Thread-1|OHRM_02_features.20191001_165759.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 21|web.assertTextPresent(tex - executing assertTextPresent(text)(${BulkUpdate})

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191001_120106" timestamp="2019-10-01T12:01:06" time="37.119" tests="14" errors="0">
+  <testsuite id="1" name="OHRM_02_features" package="OHRM_02_features" hostname="ATMECSINDT-055" timestamp="2019-10-01T12:01:07" time="31.828" tests="14" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OHRM_02_features.xlsx" />
+      <property name="Logs" value="C:\projects\OrangeHRMWebApplication\output\20191001_120106\logs\nexial-20191001_120106.log" />
+      <property name="Data File" value="OHRM_02_features.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx" />
+    </properties>
+    <testcase id="Features" name="Features" classname="orangehrm" timestamp="2019-10-01T12:01:10" time="28.897">
+      <system-out>Total : 14
+Passed: 14
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191001_120106\OHRM_02_features.20191001_120107.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191001_120106\logs\nexial-20191001_120106.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
