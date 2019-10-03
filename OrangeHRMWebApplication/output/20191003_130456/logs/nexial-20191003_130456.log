@@ -1,0 +1,131 @@
+2019-10-03 13:04:57,288|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-03 13:04:57,292|I|Thread-1|(DELAYED) validating test script as C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx
+2019-10-03 13:04:57,293|I|Thread-1|(DELAYED) validating data file as C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_01_signup.data.xlsx
+2019-10-03 13:04:57,293|I|Thread-1|(DELAYED) validating test script as C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx
+2019-10-03 13:04:57,293|I|Thread-1|(DELAYED) validating data file as C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-03 13:04:57,293|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-03 13:04:57,293|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-03 13:04:57,294|I|Thread-1|(DELAYED) [20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] resolve RUN ID as 20191003_130456
+2019-10-03 13:04:57,294|I|Thread-1|(DELAYED) [20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] new thread started
+2019-10-03 13:04:57,294|I|Thread-1|No predefined nexial-setup found
+2019-10-03 13:04:57,399|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:04:57,399|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:04:57,399|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:04:57,425|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 13:04:58,356|I|Thread-1|[20191003_130456] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx with 1 iteration(s)
+2019-10-03 13:04:58,359|I|Thread-1|[20191003_130456] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130456\captures
+2019-10-03 13:04:58,359|I|Thread-1|[20191003_130456] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130456\logs
+2019-10-03 13:04:59,291|I|Thread-1|[20191003_130456] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191003_130456\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001.xlsx
+2019-10-03 13:04:59,292|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_01_signup.data.xlsx
+2019-10-03 13:05:00,117|I|Thread-1|[20191003_130456] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191003_130456\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001.xlsx
+2019-10-03 13:05:00,944|I|Thread-1|STARTS
+2019-10-03 13:05:00,968|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-03 13:05:00,974|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - executing test scenario
+2019-10-03 13:05:00,974|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup|Openurl - executing activity
+2019-10-03 13:05:01,576|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-10-03 13:05:01,582|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-03 13:05:01,585|I|Thread-1|init chrome
+2019-10-03 13:05:04,774|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-03 13:05:04,797|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-03 13:05:04,816|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-03 13:05:04,894|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup|Openurl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-03 13:05:14,960|E|Thread-1|[20191003_130456] EXECUTING COMMAND: web.open(url)('https://www.orangehrm.com/')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.90)...
+2019-10-03 13:05:15,259|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup|Openurl|#  5|web.open(url) - FAIL EXECUTING COMMAND: web.open(url)('https://www.orangehrm.com/')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.90)...
+2019-10-03 13:05:15,260|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup|Openurl|#  5|web.open(url) - test stopping due to failure on fail-fast command: web.open(url)
+2019-10-03 13:05:15,263|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - test activity execution failed. Because of this, all subsequent test case will be skipped
+2019-10-03 13:05:15,265|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - test activity execution ending due to EndLoopIf() flow control activated or unrecoverable execution failure.
+2019-10-03 13:05:15,266|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,269|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,269|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,270|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,270|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,270|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,271|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,272|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,273|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,273|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,273|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,273|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,273|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,274|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,274|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,274|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,275|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,275|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,275|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,275|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - skipping test activity due to previous failure
+2019-10-03 13:05:15,673|I|Thread-1|[OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup] saving test scenario
+2019-10-03 13:05:16,079|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001|signup - test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-10-03 13:05:16,094|I|Thread-1|[20191003_130456] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191003_130456\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15111 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-10-03 13:05:16,099|I|Thread-1|OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001 - fail-immediate in effect - test execution will stop now.
+2019-10-03 13:05:18,025|I|Thread-1|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:05:18,037|I|Thread-1|[20191003_130456] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 20972 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191003_130456\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_130458.001.xlsx
+
+
+
+2019-10-03 13:05:18,082|I|main|[20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] now completed
+2019-10-03 13:05:18,083|I|main|[20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191003_130456
+2019-10-03 13:05:18,083|I|main|[20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-03 13:05:18,128|I|Thread-3|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 13:05:18,194|E|Thread-3|previous test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-10-03 13:05:19,083|I|main|[20191003_130456] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] now completed
+2019-10-03 13:05:19,083|I|main|[20191003_130456] all execution thread(s) have terminated
+2019-10-03 13:05:19,083|I|main|[20191003_130456] test run completed in about 22 seconds
+2019-10-03 13:05:19,234|I|main|No predefined nexial-setup found
+2019-10-03 13:05:19,285|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:05:19,285|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:05:19,285|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:05:19,286|I|main|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:05:19,286|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_130456\execution-output.html
+2019-10-03 13:05:20,008|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_130456\junit.xml
+2019-10-03 13:05:20,063|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191003_130456\junit.xml
+2019-10-03 13:05:20,063|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-03 13:05:20,064|I|main|skipped email notification as configured
+2019-10-03 13:05:20,065|I|main|Exiting Nexial...
+2019-10-03 13:05:20,065|I|main|shutdown starts...
+2019-10-03 13:05:20,066|I|main|Shutting down 'chrome' webdriver...
+2019-10-03 13:05:28,970|I|main|shutdown ends...
+2019-10-03 13:05:28,971|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 22 sec.
+| » Test Steps:     1
+| » Passed:         0
+| » Failed:         1
+| » Success Rate:   0.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-03 13:05:28,972|E|main|failure found; success rate is 0.00%
+2019-10-03 13:05:28,973|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191003_130456
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191003_130456\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191003_130456\junit.xml
+SUCCESS RATE: 0.00%
+EXIT STATUS:  -13
+2019-10-03 13:05:28,973|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191003_130456
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191003_130456\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191003_130456\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

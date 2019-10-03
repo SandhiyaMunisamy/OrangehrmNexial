@@ -1,0 +1,165 @@
+2019-10-03 13:08:59,439|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-03 13:08:59,445|I|Thread-1|(DELAYED) data file resolved as C:\Windows\TEMP\NauZh\OHRM_01_signup.data.xlsx
+2019-10-03 13:08:59,445|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-03 13:08:59,445|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-03 13:08:59,446|I|Thread-1|(DELAYED) [20191003_130858] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] resolve RUN ID as 20191003_130858
+2019-10-03 13:08:59,446|I|Thread-1|(DELAYED) [20191003_130858] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] new thread started
+2019-10-03 13:08:59,446|I|Thread-1|No predefined nexial-setup found
+2019-10-03 13:08:59,630|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:08:59,630|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:08:59,631|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:08:59,675|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 13:09:01,146|I|Thread-1|[20191003_130858] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx with 1 iteration(s)
+2019-10-03 13:09:01,153|I|Thread-1|[20191003_130858] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130858\captures
+2019-10-03 13:09:01,156|I|Thread-1|[20191003_130858] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130858\logs
+2019-10-03 13:09:02,631|I|Thread-1|[20191003_130858] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191003_130858\OHRM_01_signup.20191003_130901.001.xlsx
+2019-10-03 13:09:02,631|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_01_signup.data.xlsx
+2019-10-03 13:09:03,219|I|Thread-1|[20191003_130858] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191003_130858\OHRM_01_signup.20191003_130901.001.xlsx
+2019-10-03 13:09:04,491|I|Thread-1|STARTS
+2019-10-03 13:09:04,523|I|Thread-1|OHRM_01_signup.20191003_130901.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-03 13:09:04,529|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup - executing test scenario
+2019-10-03 13:09:04,530|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Openurl - executing activity
+2019-10-03 13:09:05,131|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-10-03 13:09:05,137|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-03 13:09:05,141|I|Thread-1|init chrome
+2019-10-03 13:09:08,218|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-03 13:09:08,244|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-03 13:09:08,274|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-03 13:09:08,358|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Openurl|#  5|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-03 13:09:15,555|I|Thread-1|current browser window handle:CDwindow-E92369496F11746582C82F16951C9580
+2019-10-03 13:09:16,070|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Openurl|#  5|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-03 13:09:16,071|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|MaximizeWindow - executing activity
+2019-10-03 13:09:16,672|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|MaximizeWindow|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-03 13:09:17,852|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|MaximizeWindow|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-03 13:09:17,853|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickUsername - executing activity
+2019-10-03 13:09:18,453|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickUsername|#  7|web.click(locator) - executing click(locator)(${btn.freetrial.loc})
+2019-10-03 13:09:18,536|I|Thread-1|clicking '//nav[@class='navbar navbar-default header-nav']/div/div[2]/ul[2]/li[2]/a'...
+2019-10-03 13:09:18,594|I|Thread-1|click target via JS, @id=
+2019-10-03 13:09:21,160|I|Thread-1|clicked -> true
+2019-10-03 13:09:21,163|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickUsername|#  7|web.click(locator) - PASS click via JS event
+2019-10-03 13:09:21,164|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFavoredUrl - executing activity
+2019-10-03 13:09:21,765|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFavoredUrl|#  8|web.type(locator,value) - executing type(locator,value)(${txt.favoredurl.loc}, ${FavoredUrl})
+2019-10-03 13:09:22,452|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFavoredUrl|#  8|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_subdomain_Holder']/input'
+2019-10-03 13:09:22,452|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFirstName - executing activity
+2019-10-03 13:09:23,054|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFirstName|#  9|web.type(locator,value) - executing type(locator,value)(${txt.firstname.loc}, ${FirstName})
+2019-10-03 13:09:23,452|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterFirstName|#  9|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_FirstName_Holder']/div/input'
+2019-10-03 13:09:23,453|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterLastName - executing activity
+2019-10-03 13:09:24,053|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterLastName|# 10|web.type(locator,value) - executing type(locator,value)(${txt.lastname.loc}, ${LastName})
+2019-10-03 13:09:24,394|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterLastName|# 10|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_LastName_Holder']/div/input'
+2019-10-03 13:09:24,394|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterEmail - executing activity
+2019-10-03 13:09:24,995|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterEmail|# 11|web.type(locator,value) - executing type(locator,value)(${txt.email.loc}, ${Email})
+2019-10-03 13:09:25,481|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterEmail|# 11|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_Email_Holder']/div/input'
+2019-10-03 13:09:25,481|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterJobTitle - executing activity
+2019-10-03 13:09:26,081|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterJobTitle|# 12|web.type(locator,value) - executing type(locator,value)(${txt.jobtitle.loc}, ${JobTitle})
+2019-10-03 13:09:26,521|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterJobTitle|# 12|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_JobTitle_Holder']/div/input'
+2019-10-03 13:09:26,521|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectNoOfEmployees - executing activity
+2019-10-03 13:09:27,123|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectNoOfEmployees|# 13|web.select(locator,text) - executing select(locator,text)(${btn.noofemployees.loc}, ${txt.dropdown.noofemployees.loc})
+2019-10-03 13:09:27,355|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectNoOfEmployees|# 13|web.select(locator,text) - PASS selected '201 - 250' from '//select[@id='Form_submitForm_NoOfEmployees']'
+2019-10-03 13:09:27,356|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertNoOfEmployee - executing activity
+2019-10-03 13:09:27,956|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertNoOfEmployee|# 14|web.assertVisible(locator - executing assertVisible(locator)(${btn.noofemployees.loc})
+2019-10-03 13:09:28,075|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertNoOfEmployee|# 14|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_NoOfEmployees']' found
+2019-10-03 13:09:28,076|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Entercompany - executing activity
+2019-10-03 13:09:28,677|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Entercompany|# 15|web.type(locator,value) - executing type(locator,value)(${txt.company.loc}, ${company})
+2019-10-03 13:09:29,116|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|Entercompany|# 15|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_CompanyName_Holder']/div/input'
+2019-10-03 13:09:29,116|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectIndustry - executing activity
+2019-10-03 13:09:29,717|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectIndustry|# 16|web.select(locator,text) - executing select(locator,text)(${btn.industry.loc}, ${txt.dropdown.industry.loc})
+2019-10-03 13:09:29,932|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectIndustry|# 16|web.select(locator,text) - PASS selected 'Education' from '//select[@id='Form_submitForm_Industry']'
+2019-10-03 13:09:29,933|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertIndustry - executing activity
+2019-10-03 13:09:30,533|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertIndustry|# 17|web.assertVisible(locator - executing assertVisible(locator)(${btn.industry.loc})
+2019-10-03 13:09:30,632|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertIndustry|# 17|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_Industry']' found
+2019-10-03 13:09:30,632|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterPhoneNumber - executing activity
+2019-10-03 13:09:31,233|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterPhoneNumber|# 18|web.type(locator,value) - executing type(locator,value)(${txt.phonenumber.loc}, ${PhoneNumber})
+2019-10-03 13:09:31,620|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|EnterPhoneNumber|# 18|web.type(locator,value) - PASS typed text at '//div[@id='Form_submitForm_Contact_Holder']/div/input'
+2019-10-03 13:09:31,621|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectCountry - executing activity
+2019-10-03 13:09:32,223|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectCountry|# 19|web.select(locator,text) - executing select(locator,text)(${btn.country.loc}, ${txt.dropdown.country.loc})
+2019-10-03 13:09:32,471|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectCountry|# 19|web.select(locator,text) - PASS selected 'India' from '//select[@id='Form_submitForm_Country']'
+2019-10-03 13:09:32,471|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry - executing activity
+2019-10-03 13:09:33,073|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry|# 20|web.assertVisible(locator - executing assertVisible(locator)(${btn.country.loc})
+2019-10-03 13:09:33,167|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry|# 20|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_Country']' found
+2019-10-03 13:09:33,168|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectState - executing activity
+2019-10-03 13:09:33,769|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectState|# 21|web.select(locator,text) - executing select(locator,text)(${btn.state.loc}, ${txt.dropdown.state.loc})
+2019-10-03 13:09:33,997|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|SelectState|# 21|web.select(locator,text) - PASS selected 'Tamil Nadu' from '//select[@id='Form_submitForm_State']'
+2019-10-03 13:09:33,998|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry - executing activity
+2019-10-03 13:09:34,599|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry|# 22|web.assertVisible(locator - executing assertVisible(locator)(${btn.state.loc})
+2019-10-03 13:09:34,683|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|AssertCountry|# 22|web.assertVisible(locator - PASS EXPECTED visible element '//select[@id='Form_submitForm_State']' found
+2019-10-03 13:09:34,683|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickCheckbox - executing activity
+2019-10-03 13:09:35,283|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickCheckbox|# 23|web.click(locator) - executing click(locator)(${btn.checkbox.loc})
+2019-10-03 13:09:35,333|I|Thread-1|clicking '//input[@id='Form_submitForm_SetDummyData']'...
+2019-10-03 13:09:35,372|I|Thread-1|click target via JS, @id=Form_submitForm_SetDummyData
+2019-10-03 13:09:35,431|I|Thread-1|clicked -> true
+2019-10-03 13:09:35,439|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|ClickCheckbox|# 23|web.click(locator) - PASS click via JS event
+2019-10-03 13:09:35,439|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|NotARobot - executing activity
+2019-10-03 13:09:36,039|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|NotARobot|# 24|web.click(locator) - executing click(locator)(${btn.robot.checkbox.loc})
+2019-10-03 13:09:36,926|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|NotARobot|# 24|web.click(locator) - FAIL No element via locator '//span[@id='recaptcha-anchor']'
+2019-10-03 13:09:36,927|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|submit - executing activity
+2019-10-03 13:09:37,528|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|submit|# 25|web.click(locator) - executing click(locator)(${btn.submit.loc})
+2019-10-03 13:09:37,578|I|Thread-1|clicking '//input[@id='Form_submitForm_action_request']'...
+2019-10-03 13:09:37,612|I|Thread-1|click target via JS, @id=Form_submitForm_action_request
+2019-10-03 13:09:40,941|I|Thread-1|clicked -> true
+2019-10-03 13:09:40,943|I|Thread-1|OHRM_01_signup.20191003_130901.001|signup|submit|# 25|web.click(locator) - PASS click via JS event
+2019-10-03 13:09:41,251|I|Thread-1|[OHRM_01_signup.20191003_130901.001|signup] saving test scenario
+2019-10-03 13:09:41,559|I|Thread-1|[20191003_130858] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191003_130858\OHRM_01_signup.20191003_130901.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 37034 ms
+» Test Steps:     21
+» Error(s):       1
+
+
+
+2019-10-03 13:09:43,113|I|Thread-1|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:09:43,119|I|Thread-1|[20191003_130858] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 44217 ms
+» Iterations:     [1] total 1
+» Test Steps:     21
+» Passed:         20
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191003_130858\OHRM_01_signup.20191003_130901.001.xlsx
+
+
+
+2019-10-03 13:09:43,126|I|main|[20191003_130858] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] now completed
+2019-10-03 13:09:43,127|I|main|[20191003_130858] all execution thread(s) have terminated
+2019-10-03 13:09:43,127|I|main|[20191003_130858] test run completed in about 44 seconds
+2019-10-03 13:09:43,426|I|main|No predefined nexial-setup found
+2019-10-03 13:09:43,482|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:09:43,483|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:09:43,483|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:09:43,484|I|main|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:09:43,484|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_130858\execution-output.html
+2019-10-03 13:09:44,490|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_130858\junit.xml
+2019-10-03 13:09:44,539|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191003_130858\junit.xml
+2019-10-03 13:09:44,539|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-03 13:09:44,540|I|main|skipped email notification as configured
+2019-10-03 13:09:44,541|I|main|Exiting Nexial...
+2019-10-03 13:09:44,541|I|main|shutdown starts...
+2019-10-03 13:09:44,542|I|main|Shutting down 'chrome' webdriver...
+2019-10-03 13:09:51,318|I|main|shutdown ends...
+2019-10-03 13:09:51,318|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 44 sec.
+| » Test Steps:     21
+| » Passed:         20
+| » Failed:         1
+| » Success Rate:   95.24%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-03 13:09:51,318|E|main|failure found; success rate is 95.24%
+2019-10-03 13:09:51,318|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191003_130858
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191003_130858\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191003_130858\junit.xml
+SUCCESS RATE: 95.24%
+EXIT STATUS:  -13
+2019-10-03 13:09:51,319|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191003_130858
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191003_130858\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191003_130858\junit.xml
+NEXIAL_SUCCESS_RATE:   95.24%
+NEXIAL_EXIT_STATUS:    -13

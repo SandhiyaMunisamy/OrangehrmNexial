@@ -1,0 +1,282 @@
+2019-10-03 13:19:24,462|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-03 13:19:24,468|I|Thread-1|(DELAYED) data file resolved as C:\Windows\TEMP\nxuYh\OHRM_02_features.data.xlsx
+2019-10-03 13:19:24,468|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-03 13:19:24,468|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-03 13:19:24,468|I|Thread-1|(DELAYED) [20191003_131924] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191003_131924
+2019-10-03 13:19:24,469|I|Thread-1|(DELAYED) [20191003_131924] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-03 13:19:24,469|I|Thread-1|No predefined nexial-setup found
+2019-10-03 13:19:24,622|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:19:24,623|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:19:24,623|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:19:24,660|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 13:19:25,808|I|Thread-1|[20191003_131924] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx with 1 iteration(s)
+2019-10-03 13:19:25,815|I|Thread-1|[20191003_131924] create directory C:\projects\OrangeHRMWebApplication\output\20191003_131924\captures
+2019-10-03 13:19:25,816|I|Thread-1|[20191003_131924] create directory C:\projects\OrangeHRMWebApplication\output\20191003_131924\logs
+2019-10-03 13:19:29,317|I|Thread-1|macro(s) found and merged; C:\projects\OrangeHRMWebApplication\output\20191003_131924\OHRM_02_features.20191003_131925.001.xlsx will need to be saved
+2019-10-03 13:19:29,317|I|Thread-1|[20191003_131924] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191003_131924\OHRM_02_features.20191003_131925.001.xlsx
+2019-10-03 13:19:29,317|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-03 13:19:30,072|I|Thread-1|[20191003_131924] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191003_131924\OHRM_02_features.20191003_131925.001.xlsx
+2019-10-03 13:19:32,131|I|Thread-1|STARTS
+2019-10-03 13:19:32,172|I|Thread-1|OHRM_02_features.20191003_131925.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-03 13:19:32,187|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen - executing test scenario
+2019-10-03 13:19:32,188|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM) - executing activity
+2019-10-03 13:19:32,789|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-03 13:19:32,798|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - PASS 
+2019-10-03 13:19:33,399|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - executing open(url)(${url})
+2019-10-03 13:19:33,400|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-03 13:19:33,402|I|Thread-1|init chrome
+2019-10-03 13:19:36,827|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-03 13:19:36,861|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-03 13:19:36,888|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-03 13:19:36,965|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - default browser stability wait time is 3000 ms
+2019-10-03 13:19:44,012|I|Thread-1|current browser window handle:CDwindow-802D337EE0314E1810BF1FAB81A81A65
+2019-10-03 13:19:44,470|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-03 13:19:45,071|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-03 13:19:46,293|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-10-03 13:19:46,894|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-03 13:19:46,972|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-03 13:19:47,036|I|Thread-1|click target via JS, @id=
+2019-10-03 13:19:47,994|I|Thread-1|clicked -> true
+2019-10-03 13:19:47,997|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  8|web.click(locator) - PASS click via JS event
+2019-10-03 13:19:48,597|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-03 13:19:48,819|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  9|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-03 13:19:49,421|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.pim.loc}, ${PIMlabel})
+2019-10-03 13:19:49,677|I|Thread-1|clicking '//h4[text()='Personnel Information Management (PIM)' and text() = 'Personnel Information Management (PIM)']'...
+2019-10-03 13:19:49,721|I|Thread-1|click target via JS, @id=
+2019-10-03 13:19:52,574|I|Thread-1|clicked -> true
+2019-10-03 13:19:52,578|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 10|web.assertAndClick(locato - PASS click via JS event
+2019-10-03 13:19:53,179|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|base.section(steps) - executing section(steps)(3)
+2019-10-03 13:19:53,180|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 11|base.section(steps) - PASS 
+2019-10-03 13:19:53,780|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertTextPresent(tex - executing assertTextPresent(text)(${TryItNow})
+2019-10-03 13:19:53,838|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 12|web.assertTextPresent(tex - PASS EXPECTED text 'Try It Now' found
+2019-10-03 13:19:54,439|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.click(locator) - executing click(locator)(${btn.tryitnow.loc})
+2019-10-03 13:19:54,490|I|Thread-1|clicking '//a[text()='Try It Now']'...
+2019-10-03 13:19:54,530|I|Thread-1|click target via JS, @id=
+2019-10-03 13:19:56,640|I|Thread-1|clicked -> true
+2019-10-03 13:19:56,643|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 13|web.click(locator) - PASS click via JS event
+2019-10-03 13:19:57,245|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.goBack() - executing goBack()()
+2019-10-03 13:19:57,949|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 14|web.goBack() - PASS went back previous page
+2019-10-03 13:19:58,550|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.scrollTo(locator) - executing scrollTo(locator)(${btn.customfields.loc})
+2019-10-03 13:19:58,685|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 15|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Custom Fields']/following-sibling::a'
+2019-10-03 13:19:59,286|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.assertTextPresent(tex - executing assertTextPresent(text)(${CustomFields})
+2019-10-03 13:19:59,451|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 16|web.assertTextPresent(tex - PASS EXPECTED text 'Custom Fields' found
+2019-10-03 13:20:00,052|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.click(locator) - executing click(locator)(${btn.customfields.loc})
+2019-10-03 13:20:00,115|I|Thread-1|clicking '//h4[text()='Custom Fields']/following-sibling::a'...
+2019-10-03 13:20:00,153|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:00,229|I|Thread-1|clicked -> true
+2019-10-03 13:20:00,231|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 17|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:00,832|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.scrollTo(locator) - executing scrollTo(locator)(${btn.addemployee.loc})
+2019-10-03 13:20:00,955|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 18|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Add employee']/following-sibling::a'
+2019-10-03 13:20:01,557|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.assertTextPresent(tex - executing assertTextPresent(text)(${AddEmployee})
+2019-10-03 13:20:01,618|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 19|web.assertTextPresent(tex - PASS EXPECTED text 'Add employee' found
+2019-10-03 13:20:02,218|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.click(locator) - executing click(locator)(${btn.addemployee.loc})
+2019-10-03 13:20:02,276|I|Thread-1|clicking '//h4[text()='Add employee']/following-sibling::a'...
+2019-10-03 13:20:02,311|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:02,366|I|Thread-1|clicked -> true
+2019-10-03 13:20:02,368|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 20|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:02,970|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 21|web.scrollTo(locator) - executing scrollTo(locator)(${btn.bulkupdate.loc})
+2019-10-03 13:20:03,101|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 21|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Bulk Update']/following-sibling::a'
+2019-10-03 13:20:03,703|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 22|web.assertTextPresent(tex - executing assertTextPresent(text)(${BulkUpdate})
+2019-10-03 13:20:03,819|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 22|web.assertTextPresent(tex - PASS EXPECTED text 'Bulk Update' found
+2019-10-03 13:20:04,421|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 23|web.click(locator) - executing click(locator)(${btn.bulkupdate.loc})
+2019-10-03 13:20:04,472|I|Thread-1|clicking '//h4[text()='Bulk Update']/following-sibling::a'...
+2019-10-03 13:20:04,522|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:04,632|I|Thread-1|clicked -> true
+2019-10-03 13:20:04,634|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 23|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:05,236|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 24|web.scrollTo(locator) - executing scrollTo(locator)(${btn.myshortcuts.loc})
+2019-10-03 13:20:05,363|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 24|web.scrollTo(locator) - PASS scrolled to '//h4[text()='My shortcuts']/following-sibling::a'
+2019-10-03 13:20:05,964|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 25|web.assertTextPresent(tex - executing assertTextPresent(text)(${MyShortcuts})
+2019-10-03 13:20:06,027|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 25|web.assertTextPresent(tex - PASS EXPECTED text 'My shortcuts' found
+2019-10-03 13:20:06,629|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 26|web.click(locator) - executing click(locator)(${btn.myshortcuts.loc})
+2019-10-03 13:20:06,714|I|Thread-1|clicking '//h4[text()='My shortcuts']/following-sibling::a'...
+2019-10-03 13:20:06,761|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:06,835|I|Thread-1|clicked -> true
+2019-10-03 13:20:06,838|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 26|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:07,438|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 27|web.scrollTo(locator) - executing scrollTo(locator)(${btn.reportingtools.loc})
+2019-10-03 13:20:07,574|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 27|web.scrollTo(locator) - PASS scrolled to '//h4[text()='Reporting tools']/following-sibling::a'
+2019-10-03 13:20:08,175|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 28|web.assertTextPresent(tex - executing assertTextPresent(text)(${ReportingTools})
+2019-10-03 13:20:08,227|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 28|web.assertTextPresent(tex - PASS EXPECTED text 'Reporting tools' found
+2019-10-03 13:20:08,829|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 29|web.click(locator) - executing click(locator)(${btn.reportingtools.loc})
+2019-10-03 13:20:08,901|I|Thread-1|clicking '//h4[text()='Reporting tools']/following-sibling::a'...
+2019-10-03 13:20:08,932|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:08,986|I|Thread-1|clicked -> true
+2019-10-03 13:20:08,988|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 29|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:09,590|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 30|base.section(steps) - executing section(steps)(1)
+2019-10-03 13:20:09,591|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 30|base.section(steps) - PASS 
+2019-10-03 13:20:10,191|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 31|base.verbose(text) - executing verbose(text)(Executed Successfully)
+2019-10-03 13:20:10,192|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 31|base.verbose(text) - Executed Successfully
+2019-10-03 13:20:10,195|I|Thread-1|OHRM_02_features.20191003_131925.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|# 31|base.verbose(text) - PASS 
+2019-10-03 13:20:10,591|I|Thread-1|[OHRM_02_features.20191003_131925.001|Personnel Information Managemen] saving test scenario
+2019-10-03 13:20:11,364|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management - executing test scenario
+2019-10-03 13:20:11,364|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management - executing activity
+2019-10-03 13:20:11,966|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-03 13:20:11,969|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  5|base.section(steps) - PASS 
+2019-10-03 13:20:12,569|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  6|web.open(url) - executing open(url)(${url})
+2019-10-03 13:20:16,086|I|Thread-1|current browser window handle:CDwindow-802D337EE0314E1810BF1FAB81A81A65
+2019-10-03 13:20:16,134|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-03 13:20:16,735|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-03 13:20:16,786|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-10-03 13:20:17,387|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  8|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-03 13:20:17,431|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-03 13:20:17,461|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:18,412|I|Thread-1|clicked -> true
+2019-10-03 13:20:18,414|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  8|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:19,015|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-03 13:20:19,131|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|#  9|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-03 13:20:19,733|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 10|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.leaveortime.loc}, ${LeaveOrTimeLabel})
+2019-10-03 13:20:19,866|I|Thread-1|clicking '//h4[text()='Leave/ Time off Management' and text() = 'Leave/ Time off Management']'...
+2019-10-03 13:20:19,960|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:22,792|I|Thread-1|clicked -> true
+2019-10-03 13:20:22,794|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 10|web.assertAndClick(locato - PASS click via JS event
+2019-10-03 13:20:23,395|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 11|base.section(steps) - executing section(steps)(3)
+2019-10-03 13:20:23,396|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 11|base.section(steps) - PASS 
+2019-10-03 13:20:23,997|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 12|web.assertTextPresent(tex - executing assertTextPresent(text)(${TryItNow})
+2019-10-03 13:20:24,056|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 12|web.assertTextPresent(tex - PASS EXPECTED text 'Try It Now' found
+2019-10-03 13:20:24,656|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 13|web.click(locator) - executing click(locator)(${btn.tryitnow.loc})
+2019-10-03 13:20:24,697|I|Thread-1|clicking '//a[text()='Try It Now']'...
+2019-10-03 13:20:24,729|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:26,021|I|Thread-1|clicked -> true
+2019-10-03 13:20:26,022|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 13|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:26,624|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 14|web.goBack() - executing goBack()()
+2019-10-03 13:20:27,063|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 14|web.goBack() - PASS went back previous page
+2019-10-03 13:20:27,663|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 15|web.scrollTo(locator) - executing scrollTo(locator)(${txt.accural.loc})
+2019-10-03 13:20:27,769|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 15|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Leave Accrual and Carry Forward ']'
+2019-10-03 13:20:28,370|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 16|web.assertTextPresent(tex - executing assertTextPresent(text)(${LeaveAccrualCarryForward})
+2019-10-03 13:20:28,417|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 16|web.assertTextPresent(tex - PASS EXPECTED text 'Leave Accrual and Carry Forward' found
+2019-10-03 13:20:29,019|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 17|web.scrollTo(locator) - executing scrollTo(locator)(${txt.calender.loc})
+2019-10-03 13:20:29,110|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 17|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Leave Calendar']'
+2019-10-03 13:20:29,711|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 18|web.assertTextPresent(tex - executing assertTextPresent(text)(${LeaveCalendar})
+2019-10-03 13:20:29,764|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 18|web.assertTextPresent(tex - PASS EXPECTED text 'Leave Calendar' found
+2019-10-03 13:20:30,364|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 19|web.scrollTo(locator) - executing scrollTo(locator)(${txt.nominee.loc})
+2019-10-03 13:20:30,469|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 19|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Leave Nominee']'
+2019-10-03 13:20:31,071|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 20|web.assertTextPresent(tex - executing assertTextPresent(text)(${LeaveNominee})
+2019-10-03 13:20:31,122|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 20|web.assertTextPresent(tex - PASS EXPECTED text 'Leave Nominee' found
+2019-10-03 13:20:31,724|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 21|web.scrollTo(locator) - executing scrollTo(locator)(${txt.reports.loc})
+2019-10-03 13:20:31,831|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 21|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Leave Reports']'
+2019-10-03 13:20:32,432|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 22|web.assertTextPresent(tex - executing assertTextPresent(text)(${LeaveReports})
+2019-10-03 13:20:32,500|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 22|web.assertTextPresent(tex - PASS EXPECTED text 'Leave Reports' found
+2019-10-03 13:20:33,100|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 23|base.section(steps) - executing section(steps)(1)
+2019-10-03 13:20:33,101|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 23|base.section(steps) - PASS 
+2019-10-03 13:20:33,702|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 24|base.verbose(text) - executing verbose(text)(Executed Successfully)
+2019-10-03 13:20:33,702|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 24|base.verbose(text) - Executed Successfully
+2019-10-03 13:20:33,703|I|Thread-1|OHRM_02_features.20191003_131925.001|Leave or  Time off Management|Feature-Leave/ Time off Management|# 24|base.verbose(text) - PASS 
+2019-10-03 13:20:33,757|I|Thread-1|[OHRM_02_features.20191003_131925.001|Leave or  Time off Management] saving test scenario
+2019-10-03 13:20:34,125|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management - executing test scenario
+2019-10-03 13:20:34,125|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management - executing activity
+2019-10-03 13:20:34,725|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-03 13:20:34,726|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  5|base.section(steps) - PASS 
+2019-10-03 13:20:35,328|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  6|web.open(url) - executing open(url)(${url})
+2019-10-03 13:20:38,732|I|Thread-1|current browser window handle:CDwindow-802D337EE0314E1810BF1FAB81A81A65
+2019-10-03 13:20:38,781|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  6|web.open(url) - PASS opened URL https://www.orangehrm.com/
+2019-10-03 13:20:39,381|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  7|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-03 13:20:39,429|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  7|web.maximizeWindow() - PASS browser window maximized
+2019-10-03 13:20:40,029|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  8|web.click(locator) - executing click(locator)(${btn.features.loc})
+2019-10-03 13:20:40,089|I|Thread-1|clicking '//div[@id='header-navbar']/ul/li/a[text()='Features']'...
+2019-10-03 13:20:40,132|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:41,657|I|Thread-1|clicked -> true
+2019-10-03 13:20:41,659|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  8|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:42,259|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${btn.features.loc}, ${featuretext})
+2019-10-03 13:20:42,338|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|#  9|web.assertElementByText(l - PASS validated locator '//div[@id='header-navbar']/ul/li/a[text()='Features']' by text 'Features' as EXPECTED
+2019-10-03 13:20:42,940|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 10|web.assertAndClick(locato - executing assertAndClick(locator,label)(${btn.leaveandattendence.loc}, ${TimeAndAttendence})
+2019-10-03 13:20:43,092|I|Thread-1|clicking '//h4[text()='Time & Attendance Management' and text() = 'Time & Attendance Management']'...
+2019-10-03 13:20:43,136|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:44,980|I|Thread-1|clicked -> true
+2019-10-03 13:20:44,982|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 10|web.assertAndClick(locato - PASS click via JS event
+2019-10-03 13:20:45,582|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 11|base.section(steps) - executing section(steps)(3)
+2019-10-03 13:20:45,583|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 11|base.section(steps) - PASS 
+2019-10-03 13:20:46,184|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 12|web.assertTextPresent(tex - executing assertTextPresent(text)(${TryItNow})
+2019-10-03 13:20:46,240|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 12|web.assertTextPresent(tex - PASS EXPECTED text 'Try It Now' found
+2019-10-03 13:20:46,840|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 13|web.click(locator) - executing click(locator)(${btn.tryitnow.loc})
+2019-10-03 13:20:46,884|I|Thread-1|clicking '//a[text()='Try It Now']'...
+2019-10-03 13:20:46,914|I|Thread-1|click target via JS, @id=
+2019-10-03 13:20:48,398|I|Thread-1|clicked -> true
+2019-10-03 13:20:48,400|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 13|web.click(locator) - PASS click via JS event
+2019-10-03 13:20:49,002|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 14|web.goBack() - executing goBack()()
+2019-10-03 13:20:49,496|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 14|web.goBack() - PASS went back previous page
+2019-10-03 13:20:50,096|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 15|web.scrollTo(locator) - executing scrollTo(locator)(${txt.timesheets.loc})
+2019-10-03 13:20:50,201|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 15|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Timesheets']'
+2019-10-03 13:20:50,803|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 16|web.assertTextPresent(tex - executing assertTextPresent(text)(${Timesheets})
+2019-10-03 13:20:50,850|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 16|web.assertTextPresent(tex - PASS EXPECTED text 'Timesheets' found
+2019-10-03 13:20:51,450|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 17|web.scrollTo(locator) - executing scrollTo(locator)(${txt.paypolicy.loc})
+2019-10-03 13:20:51,545|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 17|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Pay policies and Overtime']'
+2019-10-03 13:20:52,146|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 18|web.assertTextPresent(tex - executing assertTextPresent(text)(${PaypoliciesOvertime})
+2019-10-03 13:20:52,205|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 18|web.assertTextPresent(tex - PASS EXPECTED text 'Pay policies and Overtime' found
+2019-10-03 13:20:52,806|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 19|web.scrollTo(locator) - executing scrollTo(locator)(${txt.attendence.loc})
+2019-10-03 13:20:52,894|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 19|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Attendance']'
+2019-10-03 13:20:53,494|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 20|web.assertTextPresent(tex - executing assertTextPresent(text)(${Attendance})
+2019-10-03 13:20:53,568|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 20|web.assertTextPresent(tex - PASS EXPECTED text 'Attendance' found
+2019-10-03 13:20:54,170|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 21|web.scrollTo(locator) - executing scrollTo(locator)(${txt.reportsanalytics.loc})
+2019-10-03 13:20:54,310|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 21|web.scrollTo(locator) - PASS scrolled to '//h3[text()='Reports & Analytics']'
+2019-10-03 13:20:54,910|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 22|web.assertTextPresent(tex - executing assertTextPresent(text)(${ReportsAnalytics})
+2019-10-03 13:20:54,974|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 22|web.assertTextPresent(tex - PASS EXPECTED text 'Reports & Analytics' found
+2019-10-03 13:20:55,574|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 23|base.section(steps) - executing section(steps)(1)
+2019-10-03 13:20:55,574|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 23|base.section(steps) - PASS 
+2019-10-03 13:20:56,176|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 24|base.verbose(text) - executing verbose(text)(Executed Successfully)
+2019-10-03 13:20:56,176|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 24|base.verbose(text) - Executed Successfully
+2019-10-03 13:20:56,177|I|Thread-1|OHRM_02_features.20191003_131925.001|Time & Attendance Management|Feature-Time & Attendance Management|# 24|base.verbose(text) - PASS 
+2019-10-03 13:20:56,237|I|Thread-1|[OHRM_02_features.20191003_131925.001|Time & Attendance Management] saving test scenario
+2019-10-03 13:20:56,556|I|Thread-1|[20191003_131924] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191003_131924\OHRM_02_features.20191003_131925.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 84383 ms
+» Test Steps:     67
+» Error(s):       0
+
+
+
+2019-10-03 13:20:57,456|I|Thread-1|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:20:57,461|I|Thread-1|[20191003_131924] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 93329 ms
+» Iterations:     [1] total 1
+» Test Steps:     67
+» Passed:         67
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191003_131924\OHRM_02_features.20191003_131925.001.xlsx
+
+
+
+2019-10-03 13:20:58,336|I|main|[20191003_131924] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] now completed
+2019-10-03 13:20:58,337|I|main|[20191003_131924] all execution thread(s) have terminated
+2019-10-03 13:20:58,337|I|main|[20191003_131924] test run completed in about 94 seconds
+2019-10-03 13:20:58,460|I|main|No predefined nexial-setup found
+2019-10-03 13:20:58,489|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:20:58,489|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:20:58,490|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:20:58,490|I|main|SKIPPING auto-open-result since Nexial is currently running in non-interactive environment
+2019-10-03 13:20:58,490|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_131924\execution-output.html
+2019-10-03 13:20:58,993|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_131924\junit.xml
+2019-10-03 13:20:59,031|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191003_131924\junit.xml
+2019-10-03 13:20:59,031|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-03 13:20:59,031|I|main|skipped email notification as configured
+2019-10-03 13:20:59,033|I|main|Exiting Nexial...
+2019-10-03 13:20:59,033|I|main|shutdown starts...
+2019-10-03 13:20:59,035|I|main|Shutting down 'chrome' webdriver...
+2019-10-03 13:21:05,924|I|main|shutdown ends...
+2019-10-03 13:21:05,924|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 94 sec.
+| » Test Steps:     67
+| » Passed:         67
+| » Failed:         0
+| » Success Rate:   100.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-03 13:21:05,924|I|main|ALL PASSED!
+2019-10-03 13:21:05,925|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191003_131924
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191003_131924\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191003_131924\junit.xml
+SUCCESS RATE: 100.00%
+EXIT STATUS:  0
+2019-10-03 13:21:05,925|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191003_131924
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191003_131924\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191003_131924\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

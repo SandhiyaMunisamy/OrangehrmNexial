@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191003_131630" timestamp="2019-10-03T13:16:30" time="93.193" tests="67" errors="0">
+  <testsuite id="1" name="OHRM_02_features" package="OHRM_02_features" hostname="ATMECSINDT-055" timestamp="2019-10-03T13:16:32" time="89.337" tests="67" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="ATMECSINDT-055$" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OHRM_02_features.xlsx" />
+      <property name="Logs" value="C:\projects\OrangeHRMWebApplication\output\20191003_131630\logs\nexial-20191003_131630.log" />
+      <property name="Data File" value="OHRM_02_features.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx" />
+    </properties>
+    <testcase id="Feature-Personnel Information Management (PIM)" name="Feature-Personnel Information Management (PIM)" classname="Personnel Information Managemen" timestamp="2019-10-03T13:16:37" time="84.352">
+      <system-out>Total : 27
+Passed: 27
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_131630\OHRM_02_features.20191003_131632.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_131630\logs\nexial-20191003_131630.log</system-out>
+    </testcase>
+    <testcase id="Feature-Leave/ Time off Management" name="Feature-Leave/ Time off Management" classname="Leave or  Time off Management" timestamp="2019-10-03T13:17:17" time="44.656">
+      <system-out>Total : 20
+Passed: 20
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_131630\OHRM_02_features.20191003_131632.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_131630\logs\nexial-20191003_131630.log</system-out>
+    </testcase>
+    <testcase id="Feature-Time &amp; Attendance Management" name="Feature-Time &amp; Attendance Management" classname="Time &amp; Attendance Management" timestamp="2019-10-03T13:17:39" time="22.237">
+      <system-out>Total : 20
+Passed: 20
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_131630\OHRM_02_features.20191003_131632.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_131630\logs\nexial-20191003_131630.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

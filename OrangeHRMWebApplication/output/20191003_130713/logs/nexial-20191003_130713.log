@@ -1,0 +1,28 @@
+2019-10-03 13:07:14,113|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-03 13:07:14,119|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\WKWZM\OHRM_01_signup.data.xlsx
+2019-10-03 13:07:14,119|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-03 13:07:14,119|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-03 13:07:14,119|I|Thread-1|(DELAYED) [20191003_130713] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] resolve RUN ID as 20191003_130713
+2019-10-03 13:07:14,119|I|Thread-1|(DELAYED) [20191003_130713] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] new thread started
+2019-10-03 13:07:14,120|I|Thread-1|No predefined nexial-setup found
+2019-10-03 13:07:14,265|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 13:07:14,267|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 13:07:14,269|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 13:07:14,343|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 13:07:15,851|I|Thread-1|[20191003_130713] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx with 1 iteration(s)
+2019-10-03 13:07:15,872|I|Thread-1|[20191003_130713] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130713\captures
+2019-10-03 13:07:15,877|I|Thread-1|[20191003_130713] create directory C:\projects\OrangeHRMWebApplication\output\20191003_130713\logs
+2019-10-03 13:07:17,024|I|Thread-1|[20191003_130713] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191003_130713\OHRM_01_signup.20191003_130715.001.xlsx
+2019-10-03 13:07:17,028|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_01_signup.data.xlsx
+2019-10-03 13:07:17,472|I|Thread-1|[20191003_130713] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191003_130713\OHRM_01_signup.20191003_130715.001.xlsx
+2019-10-03 13:07:18,346|I|Thread-1|STARTS
+2019-10-03 13:07:18,373|I|Thread-1|OHRM_01_signup.20191003_130715.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-03 13:07:18,383|I|Thread-1|OHRM_01_signup.20191003_130715.001|signup - executing test scenario
+2019-10-03 13:07:18,386|I|Thread-1|OHRM_01_signup.20191003_130715.001|signup|Openurl - executing activity
+2019-10-03 13:07:18,988|I|Thread-1|OHRM_01_signup.20191003_130715.001|signup|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-10-03 13:07:18,997|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-03 13:07:19,003|I|Thread-1|init chrome
+2019-10-03 13:07:22,376|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-03 13:07:22,402|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-03 13:07:22,428|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-03 13:07:22,498|I|Thread-1|OHRM_01_signup.20191003_130715.001|signup|Openurl|#  5|web.open(url) - default browser stability wait time is 3000 ms
