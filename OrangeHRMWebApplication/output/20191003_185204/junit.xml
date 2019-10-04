@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191003_185204" timestamp="2019-10-03T18:52:04" time="79.342" tests="47" errors="0">
+  <testsuite id="1001" name="1 OHRM_01_signup" package="1 OHRM_01_signup" hostname="ATMECSINDT-055" timestamp="2019-10-03T18:52:06" time="42.696" tests="20" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="ATMECSINDT-055$" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OHRM_01_signup.xlsx" />
+      <property name="Logs" value="C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log" />
+      <property name="Data File" value="OHRM_01_signup.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-plan C:\projects\OrangeHRMWebApplication\artifact\plan\OrangeHRMWebApplication-plan.xlsx" />
+    </properties>
+    <testcase id="Openurl" name="Openurl" classname="signup" timestamp="2019-10-03T18:52:08" time="40.086">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="MaximizeWindow" name="MaximizeWindow" classname="signup" timestamp="2019-10-03T18:52:21" time="27.378">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="ClickUsername" name="ClickUsername" classname="signup" timestamp="2019-10-03T18:52:23" time="25.298">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterFavoredUrl" name="EnterFavoredUrl" classname="signup" timestamp="2019-10-03T18:52:26" time="21.934">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterFirstName" name="EnterFirstName" classname="signup" timestamp="2019-10-03T18:52:27" time="20.859">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterLastName" name="EnterLastName" classname="signup" timestamp="2019-10-03T18:52:29" time="19.516">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterEmail" name="EnterEmail" classname="signup" timestamp="2019-10-03T18:52:30" time="18.105">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterJobTitle" name="EnterJobTitle" classname="signup" timestamp="2019-10-03T18:52:31" time="16.874">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="SelectNoOfEmployees" name="SelectNoOfEmployees" classname="signup" timestamp="2019-10-03T18:52:33" time="15.776">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="AssertNoOfEmployee" name="AssertNoOfEmployee" classname="signup" timestamp="2019-10-03T18:52:33" time="14.859">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="Entercompany" name="Entercompany" classname="signup" timestamp="2019-10-03T18:52:34" time="14.071">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="SelectIndustry" name="SelectIndustry" classname="signup" timestamp="2019-10-03T18:52:36" time="12.846">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="AssertIndustry" name="AssertIndustry" classname="signup" timestamp="2019-10-03T18:52:36" time="11.909">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="EnterPhoneNumber" name="EnterPhoneNumber" classname="signup" timestamp="2019-10-03T18:52:37" time="11.181">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="SelectCountry" name="SelectCountry" classname="signup" timestamp="2019-10-03T18:52:39" time="9.512">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="AssertCountry" name="AssertCountry" classname="signup" timestamp="2019-10-03T18:52:40" time="8.671">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="SelectState" name="SelectState" classname="signup" timestamp="2019-10-03T18:52:41" time="7.824">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="AssertCountry" name="AssertCountry" classname="signup" timestamp="2019-10-03T18:52:41" time="7.008">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="ClickCheckbox" name="ClickCheckbox" classname="signup" timestamp="2019-10-03T18:52:42" time="6.268">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+    <testcase id="submit" name="submit" classname="signup" timestamp="2019-10-03T18:52:43" time="5.464">
+      <system-out>Total : 1
+Passed: 1
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191003_185206.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="2001" name="2 OHRM_02_features" package="2 OHRM_02_features" hostname="ATMECSINDT-055" timestamp="2019-10-03T18:52:51" time="31.017" tests="27" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="ATMECSINDT-055$" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OHRM_02_features.xlsx" />
+      <property name="Logs" value="C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log" />
+      <property name="runtime args" value="-plan C:\projects\OrangeHRMWebApplication\artifact\plan\OrangeHRMWebApplication-plan.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="Data File" value="OHRM_02_features.data.xlsx" />
+    </properties>
+    <testcase id="Feature-Personnel Information Management (PIM)" name="Feature-Personnel Information Management (PIM)" classname="Personnel Information Managemen" timestamp="2019-10-03T18:52:54" time="27.856">
+      <system-out>Total : 27
+Passed: 27
+Failed: 0
+Output: C:\projects\OrangeHRMWebApplication\output\20191003_185204\OrangeHRMWebApplication-plan.002,OHRM_02_features.20191003_185251.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191003_185204\logs\nexial-20191003_185204.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191004_112556" timestamp="2019-10-04T11:25:56" time="9.075" tests="1" errors="1">
+  <testsuite id="1001" name="1 OHRM_01_signup" package="1 OHRM_01_signup" hostname="ATMECSINDT-055" timestamp="2019-10-04T11:25:58" time="3.614" tests="1" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-055" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Sandhiya.Munisamy" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="OHRM_01_signup.xlsx" />
+      <property name="Logs" value="C:\projects\OrangeHRMWebApplication\output\20191004_112556\logs\nexial-20191004_112556.log" />
+      <property name="Data File" value="OHRM_01_signup.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-plan C:\projects\OrangeHRMWebApplication\artifact\plan\OrangeHRMWebApplication-plan.xlsx" />
+    </properties>
+    <testcase id="Openurl" name="Openurl" classname="signup" timestamp="2019-10-04T11:26:00" time="1.154">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\OrangeHRMWebApplication\output\20191004_112556\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191004_112558.001.xlsx for execution result, C:\projects\OrangeHRMWebApplication\output\20191004_112556\logs\nexial-20191004_112556.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\OrangeHRMWebApplication\output\20191004_112556\OrangeHRMWebApplication-plan.001,OHRM_01_signup.20191004_112558.001.xlsx
+Logs  : C:\projects\OrangeHRMWebApplication\output\20191004_112556\logs\nexial-20191004_112556.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

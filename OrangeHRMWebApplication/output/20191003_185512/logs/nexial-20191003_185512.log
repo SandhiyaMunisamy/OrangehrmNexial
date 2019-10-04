@@ -1,0 +1,96 @@
+2019-10-03 18:55:12,467|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-03 18:55:12,473|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\efcrG\OHRM_02_features.data.xlsx
+2019-10-03 18:55:12,474|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-03 18:55:12,474|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-03 18:55:12,474|I|Thread-1|(DELAYED) [20191003_185512] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] resolve RUN ID as 20191003_185512
+2019-10-03 18:55:12,474|I|Thread-1|(DELAYED) [20191003_185512] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] new thread started
+2019-10-03 18:55:12,475|I|Thread-1|No predefined nexial-setup found
+2019-10-03 18:55:12,615|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 18:55:12,616|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 18:55:12,617|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 18:55:12,649|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-03 18:55:14,017|I|Thread-1|[20191003_185512] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx with 1 iteration(s)
+2019-10-03 18:55:14,033|I|Thread-1|[20191003_185512] create directory C:\projects\OrangeHRMWebApplication\output\20191003_185512\captures
+2019-10-03 18:55:14,037|I|Thread-1|[20191003_185512] create directory C:\projects\OrangeHRMWebApplication\output\20191003_185512\logs
+2019-10-03 18:55:17,161|I|Thread-1|macro(s) found and merged; C:\projects\OrangeHRMWebApplication\output\20191003_185512\OHRM_02_features.20191003_185514.001.xlsx will need to be saved
+2019-10-03 18:55:17,162|I|Thread-1|[20191003_185512] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191003_185512\OHRM_02_features.20191003_185514.001.xlsx
+2019-10-03 18:55:17,164|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_02_features.data.xlsx
+2019-10-03 18:55:17,759|I|Thread-1|[20191003_185512] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191003_185512\OHRM_02_features.20191003_185514.001.xlsx
+2019-10-03 18:55:19,436|I|Thread-1|STARTS
+2019-10-03 18:55:19,511|I|Thread-1|OHRM_02_features.20191003_185514.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-03 18:55:19,536|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen - executing test scenario
+2019-10-03 18:55:19,549|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM) - executing activity
+2019-10-03 18:55:20,153|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - executing section(steps)(4)
+2019-10-03 18:55:20,174|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  5|base.section(steps) - PASS 
+2019-10-03 18:55:20,778|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - executing open(url)(${url})
+2019-10-03 18:55:20,783|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-03 18:55:20,791|I|Thread-1|init browserstack
+2019-10-03 18:55:20,803|E|Thread-1|Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-03 18:55:20,808|E|Thread-1|Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-03 18:55:21,052|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - FAIL Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-03 18:55:21,084|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen|Feature-Personnel Information Management (PIM)|#  6|web.open(url) - test stopping due to failure on fail-fast command: web.open(url)
+2019-10-03 18:55:21,092|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen - test activity execution failed. Because of this, all subsequent test case will be skipped
+2019-10-03 18:55:21,096|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen - test activity execution ending due to EndLoopIf() flow control activated or unrecoverable execution failure.
+2019-10-03 18:55:21,144|I|Thread-1|[OHRM_02_features.20191003_185514.001|Personnel Information Managemen] saving test scenario
+2019-10-03 18:55:21,916|I|Thread-1|OHRM_02_features.20191003_185514.001|Personnel Information Managemen - test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-10-03 18:55:21,927|I|Thread-1|[20191003_185512] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191003_185512\OHRM_02_features.20191003_185514.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 2401 ms
+» Test Steps:     27
+» Error(s):       1
+
+
+
+2019-10-03 18:55:21,927|I|Thread-1|OHRM_02_features.20191003_185514.001 - fail-immediate in effect - test execution will stop now.
+2019-10-03 18:55:23,118|I|Thread-1|[20191003_185512] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 10956 ms
+» Iterations:     [1] total 1
+» Test Steps:     27
+» Passed:         1
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191003_185512\OHRM_02_features.20191003_185514.001.xlsx
+
+
+
+2019-10-03 18:55:23,323|I|main|[20191003_185512] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_02_features.xlsx] now completed
+2019-10-03 18:55:23,326|I|main|[20191003_185512] all execution thread(s) have terminated
+2019-10-03 18:55:23,328|I|main|[20191003_185512] test run completed in about 11 seconds
+2019-10-03 18:55:23,476|I|main|No predefined nexial-setup found
+2019-10-03 18:55:23,522|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-03 18:55:23,524|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-03 18:55:23,524|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-03 18:55:23,526|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_185512\execution-output.html
+2019-10-03 18:55:24,453|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191003_185512\junit.xml
+2019-10-03 18:55:24,507|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191003_185512\junit.xml
+2019-10-03 18:55:24,508|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-03 18:55:24,509|I|main|skipped email notification as configured
+2019-10-03 18:55:24,510|I|main|Exiting Nexial...
+2019-10-03 18:55:24,512|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 11 sec.
+| » Test Steps:     2
+| » Passed:         1
+| » Failed:         1
+| » Success Rate:   50.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-03 18:55:24,512|E|main|failure found; success rate is 50.00%
+2019-10-03 18:55:24,514|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191003_185512
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191003_185512\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191003_185512\junit.xml
+SUCCESS RATE: 50.00%
+EXIT STATUS:  -13
+2019-10-03 18:55:24,528|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191003_185512
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191003_185512\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191003_185512\junit.xml
+NEXIAL_SUCCESS_RATE:   50.00%
+NEXIAL_EXIT_STATUS:    -13
