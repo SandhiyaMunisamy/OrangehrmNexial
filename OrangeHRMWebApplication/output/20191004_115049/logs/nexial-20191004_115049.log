@@ -1,0 +1,112 @@
+2019-10-04 11:50:49,870|I|Thread-1|(DELAYED) nexial-core 2.2_0488 starting up...
+2019-10-04 11:50:49,878|I|Thread-1|(DELAYED) data file resolved as C:\Users\SANDHI~1.MUN\AppData\Local\Temp\UHzSU\OHRM_01_signup.data.xlsx
+2019-10-04 11:50:49,879|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-04 11:50:49,879|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-04 11:50:49,879|I|Thread-1|(DELAYED) [20191004_115049] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] resolve RUN ID as 20191004_115049
+2019-10-04 11:50:49,879|I|Thread-1|(DELAYED) [20191004_115049] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] new thread started
+2019-10-04 11:50:49,879|I|Thread-1|No predefined nexial-setup found
+2019-10-04 11:50:50,011|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-04 11:50:50,012|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-04 11:50:50,013|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-04 11:50:50,058|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-04 11:50:51,271|I|Thread-1|[20191004_115049] executing C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx with 1 iteration(s)
+2019-10-04 11:50:51,279|I|Thread-1|[20191004_115049] create directory C:\projects\OrangeHRMWebApplication\output\20191004_115049\captures
+2019-10-04 11:50:51,281|I|Thread-1|[20191004_115049] create directory C:\projects\OrangeHRMWebApplication\output\20191004_115049\logs
+2019-10-04 11:50:52,105|I|Thread-1|[20191004_115049] merging test data to tmp file C:\projects\OrangeHRMWebApplication\output\20191004_115049\OHRM_01_signup.20191004_115051.001.xlsx
+2019-10-04 11:50:52,107|I|Thread-1|refetching data from C:\projects\OrangeHRMWebApplication\artifact\data\OHRM_01_signup.data.xlsx
+2019-10-04 11:50:52,576|I|Thread-1|[20191004_115049] test script and test data merged to C:\projects\OrangeHRMWebApplication\output\20191004_115049\OHRM_01_signup.20191004_115051.001.xlsx
+2019-10-04 11:50:53,396|I|Thread-1|STARTS
+2019-10-04 11:50:53,425|I|Thread-1|OHRM_01_signup.20191004_115051.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-04 11:50:53,435|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - executing test scenario
+2019-10-04 11:50:53,437|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup|Openurl - executing activity
+2019-10-04 11:50:54,040|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup|Openurl|#  5|web.open(url) - executing open(url)(${url})
+2019-10-04 11:50:54,054|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-04 11:50:54,064|I|Thread-1|init browserstack
+2019-10-04 11:50:54,073|E|Thread-1|Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-04 11:50:54,075|E|Thread-1|Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-04 11:50:54,315|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup|Openurl|#  5|web.open(url) - FAIL Error initializing browser 'browserstack': Both nexial.browserstack.username and nexial.browserstack.automatekey are required to use BrowserStack
+2019-10-04 11:50:54,319|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup|Openurl|#  5|web.open(url) - test stopping due to failure on fail-fast command: web.open(url)
+2019-10-04 11:50:54,322|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - test activity execution failed. Because of this, all subsequent test case will be skipped
+2019-10-04 11:50:54,324|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - test activity execution ending due to EndLoopIf() flow control activated or unrecoverable execution failure.
+2019-10-04 11:50:54,329|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,330|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,331|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,332|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,333|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,335|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,336|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,339|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,341|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,343|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,345|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,346|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,349|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,351|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,352|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,353|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,354|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,355|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,356|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - skipping test activity due to previous failure
+2019-10-04 11:50:54,378|I|Thread-1|[OHRM_01_signup.20191004_115051.001|signup] saving test scenario
+2019-10-04 11:50:54,569|I|Thread-1|OHRM_01_signup.20191004_115051.001|signup - test scenario execution failed, and fail-immediate in effect. Hence all subsequent test scenarios will be skipped
+2019-10-04 11:50:54,575|I|Thread-1|[20191004_115049] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\OrangeHRMWebApplication\output\20191004_115049\OHRM_01_signup.20191004_115051.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1143 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-10-04 11:50:54,576|I|Thread-1|OHRM_01_signup.20191004_115051.001 - fail-immediate in effect - test execution will stop now.
+2019-10-04 11:50:56,540|I|Thread-1|[20191004_115049] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 7073 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\OrangeHRMWebApplication\output\20191004_115049\OHRM_01_signup.20191004_115051.001.xlsx
+
+
+
+2019-10-04 11:50:57,354|I|main|[20191004_115049] [C:\projects\OrangeHRMWebApplication\artifact\script\OHRM_01_signup.xlsx] now completed
+2019-10-04 11:50:57,357|I|main|[20191004_115049] all execution thread(s) have terminated
+2019-10-04 11:50:57,359|I|main|[20191004_115049] test run completed in about 8 seconds
+2019-10-04 11:50:57,481|I|main|No predefined nexial-setup found
+2019-10-04 11:50:57,520|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-04 11:50:57,521|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-04 11:50:57,524|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-04 11:50:57,526|I|main|generating HTML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191004_115049\execution-output.html
+2019-10-04 11:50:58,189|I|main|generating JUnit XML output for this execution to C:\projects\OrangeHRMWebApplication\output\20191004_115049\junit.xml
+2019-10-04 11:50:58,236|I|main|Generated JUnit report for this execution: C:\projects\OrangeHRMWebApplication\output\20191004_115049\junit.xml
+2019-10-04 11:50:58,256|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-04 11:50:58,257|I|main|skipped email notification as configured
+2019-10-04 11:50:58,259|I|main|Exiting Nexial...
+2019-10-04 11:50:58,262|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 8 sec.
+| » Test Steps:     1
+| » Passed:         0
+| » Failed:         1
+| » Success Rate:   0.00%
+\---------------------------------------------------------------nexial-core 2.2_0488-
+
+2019-10-04 11:50:58,262|E|main|failure found; success rate is 0.00%
+2019-10-04 11:50:58,264|I|main|End of Execution:
+OUTPUT:       C:\projects\OrangeHRMWebApplication\output\20191004_115049
+EXECUTION:    C:\projects\OrangeHRMWebApplication\output\20191004_115049\execution-output.html
+JUNIT XML:    C:\projects\OrangeHRMWebApplication\output\20191004_115049\junit.xml
+SUCCESS RATE: 0.00%
+EXIT STATUS:  -13
+2019-10-04 11:50:58,271|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\OrangeHRMWebApplication\output\20191004_115049
+NEXIAL_EXECUTION_HTML: C:\projects\OrangeHRMWebApplication\output\20191004_115049\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\OrangeHRMWebApplication\output\20191004_115049\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13
